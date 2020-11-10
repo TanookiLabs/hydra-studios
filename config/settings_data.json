@@ -13,7 +13,7 @@
           "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
           "message_link": "shopify:\/\/collections\/all",
           "color_bg": "#ede9e5",
-          "color_text": "#373a36"
+          "color_text": "#637c97"
         }
       },
       "hero-1": {
@@ -36,7 +36,7 @@
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png",
           "layout": "left",
           "title": "Activate",
-          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, MIRROR, TRX, or weighlifting session<br\/>Suites cleaned between each use<\/p>",
+          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, MIRROR, TRX, or weightlifting session<br\/>Suites cleaned between each use<\/p>",
           "button_label": ""
         }
       },
@@ -198,7 +198,7 @@
           "text_size": "large"
         }
       },
-      "16050156763b781f79": {
+      "1605030713bd892543": {
         "type": "feature-row",
         "settings": {
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.44.52_AM.png",
@@ -208,17 +208,17 @@
           "button_label": ""
         }
       },
-      "160501588052098513": {
+      "1605030732ff11798f": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.46.11_AM.png",
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_1.48.20_PM.png",
           "layout": "left",
           "title": "Recharge",
-          "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; pristine<\/p>",
+          "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; Pristine<\/p>",
           "button_label": ""
         }
       },
-      "16050159695e339dcf": {
+      "160503408969e3c746": {
         "type": "feature-row",
         "settings": {
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.47.46_AM.png",
@@ -233,9 +233,9 @@
       "hero-1",
       "1604515983c3cb4c06",
       "feature-row",
-      "16050156763b781f79",
-      "160501588052098513",
-      "16050159695e339dcf"
+      "1605030713bd892543",
+      "1605030732ff11798f",
+      "160503408969e3c746"
     ]
   },
   "presets": {
@@ -373,7 +373,7 @@
       ]
     },
     "Light": {
-      "color_text": "#373A36",
+      "color_text": "#162950",
       "color_body_text": "#6d6d6d",
       "color_sale_text": "#DA2F0C",
       "color_borders": "#e4e4e4",
@@ -427,7 +427,7 @@
             "main_linklist": "main-menu",
             "message": true,
             "color_bg": "#162950",
-            "color_text": "#373A36"
+            "color_text": "#ffffff"
           }
         },
         "hero": {

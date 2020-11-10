@@ -10,7 +10,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
   <link rel="preconnect" href="https://fonts.shopify.com" crossorigin>
-  <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
+  <!-- <link rel="preconnect" href="https://monorail-edge.shopifysvc.com"> -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,7 +26,7 @@
   {%- assign base_font_italic = base_font | font_modify: 'style', 'italic' -%}
   {%- assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic' -%}
 
-  <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
+  <link rel="preload" href="{{ 'theme.scss' | asset_url }}" as="style">
   <link rel="preload" as="font" href="{{ header_font | font_url }}" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
   <link rel="preload" as="font" href="{{ base_font_bold | font_url }}" type="font/woff2" crossorigin>
@@ -77,14 +77,14 @@
       performance.mark('debut:theme_stylesheet_loaded.end');
       performance.measure('debut:theme_stylesheet_loaded', 'debut:theme_stylesheet_loaded.start', 'debut:theme_stylesheet_loaded.end');
 
-      var url = "{{ 'theme.css' | asset_url }}";
+      var url = "{{ 'theme.scss' | asset_url }}";
       var link = document.querySelector('link[href="' + url + '"]');
       link.loaded = true;
       link.dispatchEvent(new Event('load'));
     }
   </script>
 
-  <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}" type="text/css" media="print" onload="this.media='all';onLoadStylesheet()">
+  <link rel="stylesheet" href="{{ 'theme.scss' | asset_url }}" type="text/css" media="print" onload="this.media='all';onLoadStylesheet()">
 
   <style>
     {{ header_font | font_face: font_display: 'swap' }}
@@ -148,7 +148,7 @@
         predictiveSearchShowPrice: {{ settings.predictive_search_show_price | json }},
         predictiveSearchShowVendor: {{ settings.predictive_search_show_vendor | json }}
       },
-      stylesheet: "{{ 'theme.css' | asset_url }}"
+      stylesheet: "{{ 'theme.scss' | asset_url }}"
     }
 
     document.documentElement.className = document.documentElement.className.replace('no-js', 'js');

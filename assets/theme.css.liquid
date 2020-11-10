@@ -1,4 +1,47 @@
 @charset "UTF-8";
+
+@font-face {
+  font-family: 'MrEavesModOT';
+  src: url('MrEavesModOT-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MrEavesModOT';
+  src: url('MrEavesModOT-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'MrEavesModOT';
+  src: url('MrEavesModOT-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: lighter;
+}
+
+@font-face {
+  font-family: 'OrpheusPro';
+  src: url('OrpheusPro-Reg.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OrpheusPro';
+  src: url('OrpheusPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'OrpheusPro';
+  src: url('OrpheusPro-Light.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: lighter;
+}
+
 /*============================================================================
   Debut | Built with Shopify Slate
 
@@ -1158,68 +1201,69 @@ select,
     font-size: 16px; } }
 
 /*================ Headings ================*/
-h3, .h3,
-h4,
-.h4,
-h5,
-.h5,
-h6,
-.h6 {
-  margin: 0 0 17.5px;
-  font-family: var(--font-stack-header);
-  font-style: var(--font-style-header);
-  font-weight: var(--font-weight-header);
-  line-height: 1.2;
-  overflow-wrap: break-word;
-  word-wrap: break-word; }
-  h3 a, .h3 a,
-  h4 a,
-  .h4 a,
-  h5 a,
-  .h5 a,
-  h6 a,
-  .h6 a {
-    color: inherit;
-    text-decoration: none;
-    font-weight: inherit; }
+// h3, .h3,
+// h4,
+// .h4,
+// h5,
+// .h5,
+// h6,
+// .h6 {
+//   margin: 0 0 17.5px;
+//   font-family: var(--font-stack-header);
+//   font-style: var(--font-style-header);
+//   font-weight: var(--font-weight-header);
+//   line-height: 1.25;
+//   letter-spacing: 2px;
+//   overflow-wrap: break-word;
+//   word-wrap: break-word; }
+//   h3 a, .h3 a,
+//   h4 a,
+//   .h4 a,
+//   h5 a,
+//   .h5 a,
+//   h6 a,
+//   .h6 a {
+//     color: inherit;
+//     text-decoration: none;
+//     font-weight: inherit; }
 
-h3, .h3 {
-  font-size: calc(((var(--font-size-header)) / (var(--font-size-base))) * 1em);
-  text-transform: none;
-  letter-spacing: 0; }
-  @media only screen and (max-width: 749px) {
-    h3, .h3 {
-      font-size: calc(((var(--font-h3-mobile)) / (var(--font-size-base))) * 1em); } }
-
-
-h4,
-.h4 {
-  font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1em); }
-  @media only screen and (max-width: 749px) {
-
-    h4,
-    .h4 {
-      font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1em); } }
+// h3, .h3 {
+//   font-size: calc(((var(--font-size-header)) / (var(--font-size-base))) * 1em);
+//   text-transform: none;
+//   letter-spacing: 0; }
+//   @media only screen and (max-width: 749px) {
+//     h3, .h3 {
+//       font-size: calc(((var(--font-h3-mobile)) / (var(--font-size-base))) * 1em); } }
 
 
-h5,
-.h5 {
-  font-size: calc(((var(--font-h5-desktop)) / (var(--font-size-base))) * 1em); }
-  @media only screen and (max-width: 749px) {
+// h4,
+// .h4 {
+//   font-size: calc(((var(--font-h4-desktop)) / (var(--font-size-base))) * 1em); }
+//   @media only screen and (max-width: 749px) {
 
-    h5,
-    .h5 {
-      font-size: calc(((var(--font-h5-mobile)) / (var(--font-size-base))) * 1em); } }
+//     h4,
+//     .h4 {
+//       font-size: calc(((var(--font-h4-mobile)) / (var(--font-size-base))) * 1em); } }
 
 
-h6,
-.h6 {
-  font-size: calc(((var(--font-h6-desktop)) / (var(--font-size-base))) * 1em); }
-  @media only screen and (max-width: 749px) {
+// h5,
+// .h5 {
+//   font-size: calc(((var(--font-h5-desktop)) / (var(--font-size-base))) * 1em); }
+//   @media only screen and (max-width: 749px) {
 
-    h6,
-    .h6 {
-      font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } }
+//     h5,
+//     .h5 {
+//       font-size: calc(((var(--font-h5-mobile)) / (var(--font-size-base))) * 1em); } }
+
+
+// h6,
+// .h6 {
+//   font-size: calc(((var(--font-h6-desktop)) / (var(--font-size-base))) * 1em); }
+//   @media only screen and (max-width: 749px) {
+
+//     h6,
+//     .h6 {
+//       font-size: calc(((var(--font-h6-mobile)) / (var(--font-size-base))) * 1em); } }
 
 /*================ RTE headings ================*/
 .rte {
@@ -1278,7 +1322,7 @@ h6,
 /*================ Hero and slideshow headers ================*/
 .mega-title,
 .mega-subtitle {
-  color: #000; }
+ }
   .hero .mega-title, .hero
   /* .mega-subtitle {
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.4); } */
@@ -1289,7 +1333,7 @@ h6,
     }
 
 .mega-title {
-  max-width: 450px;
+  max-width: 554px;
   margin-bottom: 8px; }
 
 .mega-title--large {
@@ -1421,8 +1465,6 @@ ol {
   -webkit-overflow-scrolling: touch; }
 
 /*================ #Links and Buttons ================*/
-a:not([disabled]):hover, a:focus {
-  font-weight: bold; }
 
 .password-powered-by a:not([disabled]):hover, .password-powered-by a:focus {
   color: var(--color-text-focus);
@@ -2018,6 +2060,9 @@ textarea {
 .healcode-login-register-text-link {
   color: white;
   text-transform: uppercase;
+  font-family: MrEavesModOT;
+  font-size : 16px;
+  margin-right: 15px;
 }
 
 .site-nav__link.site-nav--active-dropdown {
@@ -2476,12 +2521,12 @@ hr {
 
 /*================ Index sections ================*/
 .index-section {
-  padding-top: 35px;
-  padding-bottom: 35px; }
+ }
   @media only screen and (min-width: 750px) {
     .index-section {
-      padding-top: 55px;
-      padding-bottom: 55px; } }
+
+     }
+  }
   .index-section:first-child {
     padding-top: 0;
     border-top: 0; }
@@ -4823,6 +4868,7 @@ hr {
   display: none; }
 
 .site-header__mobile-nav {
+  padding-top: 10px;
   z-index: 11;
   position: relative;
   background-color: transparent; }
@@ -5752,7 +5798,9 @@ hr {
   -webkit-flex: 0 1 50%;
   -moz-flex: 0 1 50%;
   -ms-flex: 0 1 50%;
-  flex: 0 1 50%; }
+  flex: 0 1 50%;
+  text-align: center;
+}
   @media only screen and (max-width: 749px) {
     .feature-row__item {
       -webkit-flex: 1 1 auto;
@@ -5761,6 +5809,12 @@ hr {
       flex: 1 1 auto;
       width: 100%;
       max-width: 100%; } }
+
+.feature-row__item h2 {
+  font-size : 30px;
+  color : #373A36;
+  font-family: OrpheusPro;
+}
 
 .feature-row__image-wrapper {
   margin: 0 auto 19.44444px;
@@ -5780,7 +5834,9 @@ hr {
 
 .feature-row__text {
   padding-top: 35px;
-  padding-bottom: 35px; }
+  padding-bottom: 35px;
+  /* background-image: url({{ "texture-background.jpg" | asset_url }}); */
+}
   @media only screen and (max-width: 749px) {
     .feature-row__text {
       order: 2;
@@ -5792,9 +5848,12 @@ hr {
   .feature-row__text--right {
     padding-right: 35px; } }
 
-@media only screen and (min-width: 750px) {
-  .featured-row__subtext {
-    font-size: calc(((var(--font-size-base) + 2) / (var(--font-size-base))) * 1em); } }
+.featured-row__subtext {
+  font-family: MrEavesModOT;
+  font-size: 22px;
+  line-height: 25px;
+  color: #373A36;
+}
 
 .hero {
   margin-top: -55px;
@@ -5860,8 +5919,10 @@ hr {
   z-index: 2; }
 
 .hero__btn {
+  font-size: 22px;
+  min-width: 200px;
   margin-top: 27.5px;
-  color: #000;
+  color: #58718C;
   background-color: #FFF;
 }
 
@@ -6456,7 +6517,12 @@ hr {
   background-color: var(--color-bg-alt); }
 
 .rich-text__heading--large {
-  font-size: 1.4em; }
+  font-family: MrEavesModOT;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 2.25px;
+  color: #373A36;
+}
 
 .rich-text__heading--small {
   font-size: 0.88em; }
@@ -6905,9 +6971,31 @@ hr {
 .appointment-page {
   margin-top: -55px;
   padding-top: 70px;
-  /* background: #fff var(--standard-background-image) top center no-repeat; */
 }
 
 .healcode-registration-logo {
   display: none;
+}
+
+/* CUSTOM STYLES */
+
+.hero-title {
+  font-weight: lighter !important;
+  line-height: 1.5;
+  font-size: 40px !important;
+  letter-spacing: 2px !important;
+}
+
+.rich-text-component {
+  h2.rich-text-header {
+    font-family: MrEavesModOT;
+    font-weight: lighter;
+    font-size: 45px;
+    letter-spacing: 2.25px;
+    color: #373A36;
+  }
+}
+
+a:hover {
+  color: inherit !important;
 }

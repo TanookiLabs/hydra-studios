@@ -13,7 +13,7 @@
           "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
           "message_link": "shopify:\/\/collections\/all",
           "color_bg": "#ede9e5",
-          "color_text": "#637c97"
+          "color_text": "#373a36"
         }
       },
       "hero-1": {
@@ -33,9 +33,10 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png",
           "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "title": "Activate",
+          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, MIRROR, TRX, or weighlifting session<br\/>Suites cleaned between each use<\/p>",
           "button_label": ""
         }
       },
@@ -89,18 +90,6 @@
           "rows": 2,
           "show_vendor": false,
           "show_view_all": false
-        }
-      },
-      "hero-2": {
-        "type": "hero",
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "large",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
         }
       },
       "quotes": {
@@ -208,17 +197,45 @@
           "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out<\/p><p>Optimize your body, health, and mind by reserving private rooms, cleaned between each use, for mental and physical wellness<\/p>",
           "text_size": "large"
         }
+      },
+      "16050156763b781f79": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.44.52_AM.png",
+          "layout": "right",
+          "title": "Refresh",
+          "text": "<p>Locker Storage<br\/>Changing Areas<br\/>Rainfall Showers &amp; Towel Service<br\/>Steam &amp; Infrared Sauna<\/p>",
+          "button_label": ""
+        }
+      },
+      "160501588052098513": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.46.11_AM.png",
+          "layout": "left",
+          "title": "Recharge",
+          "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; pristine<\/p>",
+          "button_label": ""
+        }
+      },
+      "16050159695e339dcf": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.47.46_AM.png",
+          "layout": "right",
+          "title": "Reset",
+          "text": "<p>Vanity Stations<br\/>Curated Product Selection<br\/>Dyson Hair Dryers<\/p>",
+          "button_label": ""
+        }
       }
     },
     "content_for_index": [
       "hero-1",
       "1604515983c3cb4c06",
       "feature-row",
-      "feature-columns",
-      "collection",
-      "hero-2",
-      "quotes",
-      "image-bar"
+      "16050156763b781f79",
+      "160501588052098513",
+      "16050159695e339dcf"
     ]
   },
   "presets": {
@@ -356,7 +373,7 @@
       ]
     },
     "Light": {
-      "color_text": "#162950",
+      "color_text": "#373A36",
       "color_body_text": "#6d6d6d",
       "color_sale_text": "#DA2F0C",
       "color_borders": "#e4e4e4",
@@ -410,7 +427,7 @@
             "main_linklist": "main-menu",
             "message": true,
             "color_bg": "#162950",
-            "color_text": "#ffffff"
+            "color_text": "#373A36"
           }
         },
         "hero": {

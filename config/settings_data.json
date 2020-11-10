@@ -9,7 +9,7 @@
           "logo_max_width": 195,
           "main_linklist": "main-menu",
           "message": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
           "message_link": "shopify:\/\/collections\/all",
           "color_bg": "#ede9e5",
@@ -27,7 +27,7 @@
           "title": "YOUR PRIVATE WELLNESS STUDIO IN THE HEART OF THE CITY",
           "text": "",
           "button_label": "Book a Session",
-          "button_link": "shopify:\/\/collections\/all"
+          "button_link": "shopify:\/\/pages\/book-appointment"
         }
       },
       "feature-row": {

@@ -2,45 +2,134 @@
 
 @font-face {
   font-family: 'MrEavesModOT';
-  src: url('MrEavesModOT-Book.ttf') format('truetype');
+  src:  url({{ "MrEavesModOT-Book.woff" | asset_url }}) format('woff'),
+        url({{ "MrEavesModOT-Book.ttf" | asset_url }}) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MrEavesModOT';
-  src: url('MrEavesModOT-Bold.ttf') format('truetype');
+  src:  url({{ "MrEavesModOT-Bold.woff" | asset_url }}) format('woff'),
+        url({{ "MrEavesModOT-Bold.ttf" | asset_url }}) format('truetype');
   font-weight: bold;
   font-style: bold;
 }
 
 @font-face {
   font-family: 'MrEavesModOT';
-  src: url('MrEavesModOT-Light.ttf') format('truetype');
+  src:  url({{ "MrEavesModOT-Light.woff" | asset_url }}) format('woff'),
+        url({{ "MrEavesModOT-Light.ttf" | asset_url }}) format('truetype');
   font-weight: lighter;
   font-style: lighter;
 }
 
 @font-face {
   font-family: 'OrpheusPro';
-  src: url('OrpheusPro-Reg.ttf') format('truetype');
+  src:  url({{ "OrpheusPro-Reg.woff" | asset_url }}) format('woff'),
+        url({{ "OrpheusPro-Reg.ttf" | asset_url }}) format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'OrpheusPro';
-  src: url('OrpheusPro-Bold.ttf') format('truetype');
+  src:  url({{ "OrpheusPro-Bold.woff" | asset_url }}) format('woff'),
+        url({{ "OrpheusPro-Bold.ttf" | asset_url }}) format('truetype');
   font-weight: bold;
   font-style: bold;
 }
 
-@font-face {
-  font-family: 'OrpheusPro';
-  src: url('OrpheusPro-Light.ttf') format('truetype');
-  font-weight: lighter;
-  font-style: lighter;
+.image-and-text-title {
+  font-family: 'OrpheusPro' !important;
+  font-weight: bold;
+  font-size: 30px;
+  color: #373A36;
 }
+
+
+.appointment-page {
+  margin-top: -55px;
+  padding-top: 70px;
+}
+
+.healcode-registration-logo {
+  display: none;
+}
+
+
+
+.hero-title {
+  font-weight: lighter !important;
+  line-height: 1.5;
+  font-size: 40px !important;
+  letter-spacing: 2px !important;
+  max-width: 450px !important;
+}
+
+a:hover {
+  color: inherit !important;
+}
+
+
+
+.image-and-text-subtitle p {
+  font-family: MrEavesModOT;
+  font-size: 22px !important;
+  line-height: 25px;
+  color: #373A36;
+}
+
+.bg-pattern {
+  background-image: url({{ "texture-background.png" | asset_url }});
+}
+
+
+
+.rich-text-header {
+  font-family: MrEavesModOT;
+  font-weight: lighter;
+  font-size: 45px;
+  letter-spacing: 2.25px;
+  color: #373A36;
+}
+
+.rich-text-content p {
+  font-size: 26px;
+  line-height: 25px;
+  color: #373A36;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.testimonial-author {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: OrpheusPro;
+}
+
+.testimonial-spacer {
+  width: 100px;
+}
+
+.testimonial-bubble-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.testimonial-quote p {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+
+
+
+
+
 
 /*============================================================================
   Debut | Built with Shopify Slate
@@ -1333,7 +1422,7 @@ select,
     }
 
 .mega-title {
-  max-width: 554px;
+  max-width: 450px;
   margin-bottom: 8px; }
 
 .mega-title--large {
@@ -3901,8 +3990,11 @@ hr {
 .announcement-bar__message {
   display: block;
   padding: 5px 22px;
-  font-size: 15px;
-  font-weight: var(--font-weight-header); }
+  font-family: OrpheusPro;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+  }
   @media only screen and (min-width: 750px) {
     .announcement-bar__message {
       padding-left: 55px;
@@ -6515,14 +6607,6 @@ hr {
 .index-section--newsletter-background {
   background-color: var(--color-bg-alt); }
 
-.rich-text__heading--large {
-  font-family: MrEavesModOT;
-  font-weight: lighter;
-  font-size: 45px;
-  letter-spacing: 2.25px;
-  color: #373A36;
-}
-
 .rich-text__heading--small {
   font-size: 0.88em; }
 
@@ -6965,56 +7049,4 @@ hr {
   float: right
 }
 
-/* Appointment Page */
 
-.appointment-page {
-  margin-top: -55px;
-  padding-top: 70px;
-}
-
-.healcode-registration-logo {
-  display: none;
-}
-
-/* CUSTOM STYLES */
-
-.hero-title {
-  font-weight: lighter !important;
-  line-height: 1.5;
-  font-size: 40px !important;
-  letter-spacing: 2px !important;
-}
-
-.rich-text-component {
-  h2.rich-text-header {
-    font-family: MrEavesModOT;
-    font-weight: lighter;
-    font-size: 45px;
-    letter-spacing: 2.25px;
-    color: #373A36;
-  }
-}
-
-a:hover {
-  color: inherit !important;
-}
-
-// Image and Text Section
-
-.image-and-text-title {
-  font-family: Orpheus Pro;
-  font-weight: bold;
-  font-size: 30px;
-  color: #373A36;
-}
-
-.image-and-text-subtitle {
-  font-family: MrEavesModOT;
-  font-size: 22px;
-  line-height: 25px;
-  color: #373A36;
-}
-
-.bg-pattern {
-  background-image: url({{ "texture-background.png" | asset_url }});
-}

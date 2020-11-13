@@ -194,8 +194,7 @@
         "settings": {
           "full_width": true,
           "section_title": "OWN YOUR DAY",
-          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out<\/p><p>Optimize your body, health, and mind by reserving private rooms, cleaned between each use, for mental and physical wellness<\/p>",
-          "text_size": "large"
+          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out<\/p><p>Optimize your body, health, and mind by reserving private rooms, cleaned between each use, for mental and physical wellness<\/p>"
         }
       },
       "1605030713bd892543": {
@@ -227,6 +226,40 @@
           "text": "<p>Vanity Stations<br\/>Curated Product Selection<br\/>Dyson Hair Dryers<\/p>",
           "button_label": ""
         }
+      },
+      "1605280292657652d9": {
+        "type": "quotes",
+        "blocks": {
+          "1605280292657652d9-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I have always wanted to bike to work, but the need to be clean and presentable in the office made it unreasonable.  Hydra Studios has effectively given me two hours back into my day.<\/p>",
+              "author": "Jonathan O."
+            }
+          },
+          "1605280292657652d9-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1605280292657652d9-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "1605280292657652d9-0",
+          "1605280292657652d9-1",
+          "1605280292657652d9-2"
+        ],
+        "settings": {
+          "title": ""
+        }
       }
     },
     "content_for_index": [
@@ -235,7 +268,8 @@
       "feature-row",
       "1605030713bd892543",
       "1605030732ff11798f",
-      "160503408969e3c746"
+      "160503408969e3c746",
+      "1605280292657652d9"
     ]
   },
   "presets": {

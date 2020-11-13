@@ -2,12 +2,12 @@
   <div class="grid">
     <div class="grid__item {% unless section.settings.full_width %} medium-up--two-thirds medium-up--push-one-sixth{% endunless %}">
       {% if section.settings.section_title != blank %}
-        <div class="rich-text__heading--{{ section.settings.text_size }} text-center">
+        <div class="rich-text-heading text-center mb-4">
           <h2 class="rich-text-header">{{ section.settings.section_title | escape }}</h2>
         </div>
       {% endif %}
       {% if section.settings.text != blank %}
-        <div class="rich-text__text--{{ section.settings.text_size }} rte-setting text-center">{{ section.settings.text }}</div>
+        <div class="rich-text-content text-center">{{ section.settings.text }}</div>
       {% endif %}
     </div>
   </div>
@@ -174,118 +174,6 @@
         "zh-CN": "<p>使用此文本与您的客户分享有关您品牌的信息。描述产品、分享公告或欢迎客户访问您的商店。</p>",
         "zh-TW": "<p>您可以用這段文字和顧客分享品牌資訊、描述產品、分享公告，或歡迎顧客光臨您的商店。</p>"
       }
-    },
-    {
-      "type": "select",
-      "id": "text_size",
-      "label": {
-        "cs": "Velikost",
-        "da": "Størrelse",
-        "de": "Größe",
-        "en": "Size",
-        "es": "Tamaño",
-        "fi": "Koko",
-        "fr": "Taille",
-        "hi": "आकार",
-        "it": "Dimensione",
-        "ja": "サイズ",
-        "ko": "사이즈",
-        "nb": "Størrelse",
-        "nl": "Grootte",
-        "pl": "Rozmiar",
-        "pt-BR": "Tamanho",
-        "pt-PT": "Tamanho",
-        "sv": "Storlek",
-        "th": "ขนาด",
-        "tr": "Boyut",
-        "vi": "Cỡ",
-        "zh-CN": "大小",
-        "zh-TW": "尺寸"
-      },
-      "default": "medium",
-      "options": [
-        {
-          "label": {
-            "cs": "Malá",
-            "da": "Lille",
-            "de": "Klein",
-            "en": "Small",
-            "es": "Pequeño",
-            "fi": "Pieni",
-            "fr": "Petite",
-            "hi": "छोटा",
-            "it": "Piccolo",
-            "ja": "小",
-            "ko": "스몰",
-            "nb": "Liten",
-            "nl": "Klein",
-            "pl": "Mały",
-            "pt-BR": "Pequeno",
-            "pt-PT": "Pequeno",
-            "sv": "Liten",
-            "th": "เล็ก",
-            "tr": "Küçük",
-            "vi": "Nhỏ",
-            "zh-CN": "小",
-            "zh-TW": "小型"
-          },
-          "value": "small"
-        },
-        {
-          "label": {
-            "cs": "Střední",
-            "da": "Medium",
-            "de": "Mittel",
-            "en": "Medium",
-            "es": "Mediano",
-            "fi": "Keskisuuri",
-            "fr": "Moyenne",
-            "hi": "मध्यम",
-            "it": "Medio",
-            "ja": "中",
-            "ko": "보통",
-            "nb": "Middels",
-            "nl": "Gemiddeld",
-            "pl": "Średnie",
-            "pt-BR": "Médio",
-            "pt-PT": "Intermédio",
-            "sv": "Medium",
-            "th": "ปานกลาง",
-            "tr": "Orta",
-            "vi": "Trung bình",
-            "zh-CN": "中等",
-            "zh-TW": "中等"
-          },
-          "value": "medium"
-        },
-        {
-          "label": {
-            "cs": "Velká",
-            "da": "Stor",
-            "de": "Groß",
-            "en": "Large",
-            "es": "Grande",
-            "fi": "Suuri",
-            "fr": "Grande",
-            "hi": "बड़ा",
-            "it": "Grande",
-            "ja": "大",
-            "ko": "라지",
-            "nb": "Stor",
-            "nl": "Groot",
-            "pl": "Duży",
-            "pt-BR": "Grande",
-            "pt-PT": "Grande",
-            "sv": "Stor",
-            "th": "ใหญ่",
-            "tr": "Büyük",
-            "vi": "Lớn",
-            "zh-CN": "大",
-            "zh-TW": "大型"
-          },
-          "value": "large"
-        }
-      ]
     }
   ],
   "presets": [

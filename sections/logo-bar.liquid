@@ -1,28 +1,35 @@
-<div class="page-width">
+<div class="page-width mt-5 pt-5">
   {% if section.settings.title != blank %}
-    <div class="section-header text-center">
-      <h2>{{ section.settings.title | escape }}</h2>
+    <div class="text-center">
+      <h2 class="logo-bar-title">{{ section.settings.title | escape }}</h2>
+    </div>
+    <div class="text-center">
+      <p class="logo-bar-subtitle">{{ section.settings.subtitle | escape }}</p>
     </div>
   {% endif %}
 
   {% if section.blocks.size > 0 %}
-    <ul class="logo-bar{% if section.settings.title_enable %} logo-bar--large{% endif %}">
+    <div class="mt-5 d-flex align-items-center justify-content-around flex-wrap">
       {% for block in section.blocks %}
-        <li class="logo-bar__item{% if section.settings.title_enable %} logo-bar__item--large{% endif %}" {{ block.shopify_attributes }}>
+        <div class="text-center my-3">
           {% if block.settings.link != blank %}
-            <a href="{{ block.settings.link }}" class="logo-bar__link">
+            <a href="{{ block.settings.link }}" target="_blank">
           {% endif %}
           {% if block.settings.image != blank %}
-            {{ block.settings.image | img_url: '160x160', scale: 2 | img_tag: block.settings.image.alt, 'logo-bar__image' }}
-          {% else %}
-            {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+            <img src={{ block.settings.image | image_url }} class="logo-bar-image" />
           {% endif %}
           {% if block.settings.link != blank %}
             </a>
           {% endif %}
-        </li>
+        </div>
       {% endfor %}
-    </ul>
+    </div>
+
+    <div class="text-center my-5">
+      <a href="/pages/book-appointment" class="logo-bar-book-session py-2 px-3">
+        BOOK A SESSION
+      </a>
+    </div>
   {% endif %}
 
   {% if section.blocks.size == 0 %}
@@ -111,6 +118,34 @@
         "vi": "Danh sách logo",
         "zh-CN": "logo 列表",
         "zh-TW": "標誌清單"
+      }
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": {
+        "cs": "Sub Nadpis",
+        "da": "Sub Overskrift",
+        "de": "Sub Titel",
+        "en": "Sub Heading",
+        "es": "Sub Título",
+        "fi": "Sub Otsake",
+        "fr": "Sub Sub En-tête",
+        "hi": "Sub शीर्षक",
+        "it": "Sub Heading",
+        "ja": "Sub 見出し",
+        "ko": "Sub 제목",
+        "nb": "Sub Overskrift",
+        "nl": "Sub Kop",
+        "pl": "Sub Nagłówek",
+        "pt-BR": "Sub Título",
+        "pt-PT": "Sub Título",
+        "sv": "Sub Rubrik",
+        "th": "Sub ส่วนหัว",
+        "tr": "Sub Başlık",
+        "vi": "Sub Tiêu đề",
+        "zh-CN": "Sub 标题",
+        "zh-TW": "Sub 標題"
       }
     }
   ],

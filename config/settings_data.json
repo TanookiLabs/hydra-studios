@@ -40,6 +40,12 @@
           "button_label": ""
         }
       },
+      "pricing": {
+        "type": "pricing",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png"
+        }
+      },
       "feature-columns": {
         "type": "feature-columns",
         "blocks": {
@@ -260,6 +266,60 @@
         "settings": {
           "title": ""
         }
+      },
+      "1605293181991bc133": {
+        "type": "logo-bar",
+        "blocks": {
+          "1605293181991bc133-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_4.png"
+            }
+          },
+          "1605293181991bc133-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_5.png",
+              "link": "https:\/\/www.brooklinen.com\/"
+            }
+          },
+          "1605293181991bc133-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_6.png"
+            }
+          },
+          "1605293181991bc133-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_7.png"
+            }
+          },
+          "cab9b1fe-9bcc-4583-b295-f4d26de0eb0d": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_8.png"
+            }
+          },
+          "1784625a-5ee3-486d-9350-bcacfc07384c": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Asset_9.png"
+            }
+          }
+        },
+        "block_order": [
+          "1605293181991bc133-0",
+          "1605293181991bc133-1",
+          "1605293181991bc133-2",
+          "1605293181991bc133-3",
+          "cab9b1fe-9bcc-4583-b295-f4d26de0eb0d",
+          "1784625a-5ee3-486d-9350-bcacfc07384c"
+        ],
+        "settings": {
+          "title": "BRAND PARTNERS",
+          "subtitle": "Enjoy a curated assortment of wellness amenities"
+        }
       }
     },
     "content_for_index": [
@@ -269,6 +329,7 @@
       "1605030713bd892543",
       "1605030732ff11798f",
       "160503408969e3c746",
+      "1605293181991bc133",
       "1605280292657652d9"
     ]
   },

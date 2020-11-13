@@ -1,12 +1,16 @@
-<!-- <img src="{{ 'standard-background-image.jpg' | asset_url }}" alt="" class="appointment-bg-image"> -->
-<div class="appointment-bg-image">
+<div class="appointment-page-bg">
   <div class="page-width appointment-page">
-    <div class="grid">
-      <div class="grid__item medium-up--five-sixths medium-up--push-one-twelfth">
-        <div class="rte">
-          <healcode-widget data-type="registrations" data-widget-partner="object" data-widget-id="20110866f107"
-            data-widget-version="0"></healcode-widget>
-        </div>
+    <div class="mx-auto appointment-widget-container mt-5">
+      <h1 class="text-center mt-4 appointment-header">
+        Reserve Online
+      </h1>
+      <p class="text-center appointment-subheader mb-5">
+        FIND AN APPOINTMENT
+      </p>
+        <!-- <healcode-widget data-type="registrations" data-widget-partner="object" data-widget-id="20110866f107"
+          data-widget-version="0"></healcode-widget> -->
+        <healcode-widget data-type="schedules" data-widget-partner="object" data-widget-id="20149164f107"
+          data-widget-version="1"></healcode-widget>
       </div>
     </div>
   </div>

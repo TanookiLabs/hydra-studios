@@ -29,7 +29,7 @@
           <h2 class="image-and-text-title mb-4">{{ section.settings.title | escape }}</h2>
         {% endif %}
         {% if section.settings.text != blank %}
-          <div class="image-and-text-subtitle">{{ section.settings.text }}</div>
+          <div class="image-and-text-subtitle mx-auto">{{ section.settings.text }}</div>
         {% endif %}
         {% if section.settings.button_label != blank and section.settings.button_link != blank %}
           {%- capture ariaLabel -%}

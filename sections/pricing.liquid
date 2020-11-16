@@ -1,5 +1,91 @@
-<div>
-  Hello
+<div class="pricing-section">
+  <div class="page-width">
+    <h2 class="text-center pricing-header mt-5 mb-4">
+      {{ section.settings.title }}
+    </h2>
+
+    <div class='d-flex justify-content-around flex-row-wrap'>
+      <div class='pricing-column px-3 py-5'>
+        <h5 class="column-title mb-5">
+          {{ section.settings.column_1_title }}
+        </h5>
+        {% for block in section.blocks %}
+          {% if block.settings.column_number == "one" %}
+            <div class='d-flex justify-content-between mb-2'>
+              <div class='service-tagline'>
+                {{ block.settings.title }}
+              </div>
+              <div class='service-cost'>
+                {{ block.settings.price }}
+              </div>
+            </div>
+            {% if block.settings.description != blank %}
+              <div class='rte service-description'>
+                {{ block.settings.description }}
+              </div>
+            {% endif %}
+            {% if block.settings.bottom_border == 'yes' %}
+              <div class='service-border'></div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class='pricing-column px-3 py-5'>
+        <h5 class="column-title mb-5">
+          {{ section.settings.column_2_title }}
+        </h5>
+
+        {% for block in section.blocks %}
+          {% if block.settings.column_number == "two" %}
+            <div class='d-flex justify-content-between mb-2'>
+              <div class='service-tagline'>
+                {{ block.settings.title }}
+              </div>
+              <div class='service-cost'>
+                {{ block.settings.price }}
+              </div>
+            </div>
+            {% if block.settings.description != blank %}
+              <div class='rte service-description'>
+                {{ block.settings.description }}
+              </div>
+            {% endif %}
+            {% if block.settings.bottom_border == 'yes' %}
+              <div class='service-border'></div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      <div class='pricing-column px-3 py-5'>
+        <h5 class="column-title mb-5">
+          {{ section.settings.column_3_title }}
+        </h5>
+
+        {% for block in section.blocks %}
+          {% if block.settings.column_number == "three" %}
+            <div class='d-flex justify-content-between mb-2'>
+              <div class='service-tagline'>
+                {{ block.settings.title }}
+              </div>
+              <div class='service-cost'>
+                {{ block.settings.price }}
+              </div>
+            </div>
+            {% if block.settings.description != blank %}
+              <div class='rte service-description'>
+                {{ block.settings.description }}
+              </div>
+            {% endif %}
+            {% if block.settings.bottom_border == 'yes' %}
+              <div class='service-border'></div>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
 </div>
 
 {% schema %}
@@ -8,9 +94,94 @@
   "class": "pricing-section",
   "settings": [
     {
-      "type": "image_picker",
-      "id": "image",
-      "label": "Image"
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "column_1_title",
+      "label": "Column 1 Title"
+    },
+    {
+      "type": "text",
+      "id": "column_2_title",
+      "label": "Column 2 Title"
+    },
+    {
+      "type": "text",
+      "id": "column_3_title",
+      "label": "Column 3 Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "service_offerings",
+      "name": "Service Offerings",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "select",
+          "id": "column_number",
+          "label": "Column Number",
+          "default": "one",
+          "options": [
+            {
+              "value": "one",
+              "label": "1"
+            },
+            {
+              "value": "two",
+              "label": "2"
+            },
+            {
+              "value": "three",
+              "label": "3"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "bottom_border",
+          "label": "Show bottom border",
+          "default": "no",
+          "options": [
+            {
+              "value": "yes",
+              "label": "Yes"
+            },
+            {
+              "value": "no",
+              "label": "No"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Pricing",
+      "category": "Promotional",
+      "blocks": [
+        {
+          "type": "service_offerings"
+        }
+      ]
     }
   ]
 }

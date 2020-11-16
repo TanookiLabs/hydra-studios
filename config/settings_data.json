@@ -42,9 +42,7 @@
       },
       "pricing": {
         "type": "pricing",
-        "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png"
-        }
+        "settings": {}
       },
       "feature-columns": {
         "type": "feature-columns",
@@ -320,6 +318,151 @@
           "title": "BRAND PARTNERS",
           "subtitle": "Enjoy a curated assortment of wellness amenities"
         }
+      },
+      "1605561888ea81b52d": {
+        "type": "pricing",
+        "blocks": {
+          "1605561888ea81b52d-0": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Flex Membership",
+              "price": "$119\/Mo",
+              "description": "<p>Unlimited private room bookings<br\/>Unlimited Infrared Sauna bookings<br\/>No sign-up fee<br\/>No annual commitment<br\/>Cancel at any time<\/p>",
+              "column_number": "one",
+              "bottom_border": "no"
+            }
+          },
+          "22521be5-0c72-45f0-a86f-554c0a1848b5": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Limited Memberships Available",
+              "price": "",
+              "description": "",
+              "column_number": "one",
+              "bottom_border": "no"
+            }
+          },
+          "bff0996e-c9d6-4587-9090-4780c7d3bc54": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Fitness Suite",
+              "price": "$28\/Mo",
+              "description": "<p>Peloton, TRX, MIRROR, or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
+              "column_number": "two",
+              "bottom_border": "yes"
+            }
+          },
+          "88204de9-ed52-40c2-b7cb-2ecd2bb86894": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Refresh Session",
+              "price": "$24",
+              "description": "<p>Shower suite, vanity, &amp; locker storage<\/p>",
+              "column_number": "two",
+              "bottom_border": "yes"
+            }
+          },
+          "0fd712f6-48ef-4692-b0b3-c78fe88bbb92": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Recharge session",
+              "price": "$24",
+              "description": "<p>Mental wellness room for nap or meditation<\/p>",
+              "column_number": "two",
+              "bottom_border": "yes"
+            }
+          },
+          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Infrared sauna session",
+              "price": "$44",
+              "description": "<p>45 minutes, individual sessions only<\/p>",
+              "column_number": "two",
+              "bottom_border": "no"
+            }
+          },
+          "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Semi-private classes",
+              "price": "",
+              "description": "<p>Boutique fitness &amp; wellness classes<\/p>",
+              "column_number": "three",
+              "bottom_border": "no"
+            }
+          },
+          "b95dddd1-620f-4979-aa77-27efb5a335a4": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Single class",
+              "price": "$24",
+              "description": "",
+              "column_number": "three",
+              "bottom_border": "no"
+            }
+          },
+          "985b35aa-29ec-4774-81d5-37fa139afd23": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Unlimited class add-on",
+              "price": "+ $30\/Mo",
+              "description": "<p>Flex membership required<\/p>",
+              "column_number": "three",
+              "bottom_border": "yes"
+            }
+          },
+          "749015a7-d409-4e75-bb33-2662d372435b": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Virtual classes",
+              "price": "",
+              "description": "<p>Digital, on-demand fitness and wellness classes from top NYC instructors<\/p>",
+              "column_number": "three",
+              "bottom_border": "no"
+            }
+          },
+          "a8b7a0b0-5a84-4114-9414-32d8329c8a24": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Single",
+              "price": "$10",
+              "description": "",
+              "column_number": "three",
+              "bottom_border": "no"
+            }
+          },
+          "09c6cd75-114c-47f4-a7cf-f9c0b763271c": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Unlimited",
+              "price": "$30\/Mo",
+              "description": "",
+              "column_number": "three",
+              "bottom_border": "no"
+            }
+          }
+        },
+        "block_order": [
+          "1605561888ea81b52d-0",
+          "22521be5-0c72-45f0-a86f-554c0a1848b5",
+          "bff0996e-c9d6-4587-9090-4780c7d3bc54",
+          "88204de9-ed52-40c2-b7cb-2ecd2bb86894",
+          "0fd712f6-48ef-4692-b0b3-c78fe88bbb92",
+          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28",
+          "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388",
+          "b95dddd1-620f-4979-aa77-27efb5a335a4",
+          "985b35aa-29ec-4774-81d5-37fa139afd23",
+          "749015a7-d409-4e75-bb33-2662d372435b",
+          "a8b7a0b0-5a84-4114-9414-32d8329c8a24",
+          "09c6cd75-114c-47f4-a7cf-f9c0b763271c"
+        ],
+        "settings": {
+          "title": "Pricing \/ Menu",
+          "column_1_title": "Flex Memberships",
+          "column_2_title": "Individual Sessions",
+          "column_3_title": "Coming Soon"
+        }
       }
     },
     "content_for_index": [
@@ -330,7 +473,8 @@
       "1605030732ff11798f",
       "160503408969e3c746",
       "1605293181991bc133",
-      "1605280292657652d9"
+      "1605280292657652d9",
+      "1605561888ea81b52d"
     ]
   },
   "presets": {

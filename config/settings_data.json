@@ -463,6 +463,67 @@
           "column_2_title": "Individual Sessions",
           "column_3_title": "Coming Soon"
         }
+      },
+      "16055692661c10709d": {
+        "type": "locations",
+        "settings": {
+          "title": "Locations",
+          "main_location": "<p><strong>120 Wall Street New York, NY<br\/>Coming Soon<\/strong><\/p>",
+          "main_location_image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-16_at_6.30.07_PM.png",
+          "secondary_location": "<p><strong>Fifth Avenue<br\/>Exclusively Serving Convene<\/strong><\/p>",
+          "second_location_image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-16_at_6.30.29_PM.png"
+        }
+      },
+      "1605579672e6211d63": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "DON'T STRESS",
+          "subheading": "<p>Subscribe for updates on locations and memberships<\/p>",
+          "show_background": true
+        }
+      },
+      "1605628834f1ef4bf3": {
+        "type": "instagram-gallery",
+        "blocks": {
+          "53df614c-fa32-45ca-ba0b-e79a5e13a58b": {
+            "type": "instagram_photo",
+            "settings": {
+              "instagram_photo": "shopify:\/\/shop_images\/Hydra_Homepage-01.jpg",
+              "instagram_url": "https:\/\/www.instagram.com\/p\/B8w9-uIA2Zf\/"
+            }
+          },
+          "1605628834f1ef4bf3-0": {
+            "type": "instagram_photo",
+            "settings": {
+              "instagram_photo": "shopify:\/\/shop_images\/Hanging_Wall_Sign.jpg",
+              "instagram_url": "https:\/\/www.instagram.com\/p\/B8w9-uIA2Zf\/"
+            }
+          },
+          "72f6904c-eef3-48be-beae-3411af24d377": {
+            "type": "instagram_photo",
+            "settings": {
+              "instagram_photo": "shopify:\/\/shop_images\/Screen_Shot_2020-11-17_at_11.21.35_AM.png",
+              "instagram_url": "https:\/\/www.instagram.com\/p\/B8w9-uIA2Zf\/"
+            }
+          },
+          "733fb356-177e-4d40-94b3-24ac0b614af4": {
+            "type": "instagram_photo",
+            "settings": {
+              "instagram_photo": "shopify:\/\/shop_images\/Experiences-03.jpg",
+              "instagram_url": "https:\/\/www.instagram.com\/p\/B8w9-uIA2Zf\/"
+            }
+          }
+        },
+        "block_order": [
+          "53df614c-fa32-45ca-ba0b-e79a5e13a58b",
+          "1605628834f1ef4bf3-0",
+          "72f6904c-eef3-48be-beae-3411af24d377",
+          "733fb356-177e-4d40-94b3-24ac0b614af4"
+        ],
+        "settings": {
+          "title": "STAY REFRESHED",
+          "instagram_url": "https:\/\/www.instagram.com\/hydra_studios\/"
+        }
       }
     },
     "content_for_index": [
@@ -473,8 +534,11 @@
       "1605030732ff11798f",
       "160503408969e3c746",
       "1605293181991bc133",
+      "1605561888ea81b52d",
       "1605280292657652d9",
-      "1605561888ea81b52d"
+      "16055692661c10709d",
+      "1605579672e6211d63",
+      "1605628834f1ef4bf3"
     ]
   },
   "presets": {

@@ -1,0 +1,82 @@
+<div class="locations-section mb-5 pb-5">
+  <div class="page-width">
+    <h2 class="text-center pricing-header mt-5 mb-2">
+      {{ section.settings.title }}
+    </h2>
+    <div class="text-center instagram-subtitle mb-3">
+      <a href="{{ section.settings.instagram_url }}" target="_blank">
+        Connect on <img src={{ "instagram-camera-icon.png" | asset_url }} class="subtitle-instagram-icon ml-2 mb-1" />
+      </a>
+    </div>
+
+    <div class='row flex-row-wrap mt-5'>
+      {% for block in section.blocks %}
+        <div class="col-lg-3 col-6 instagram-picture-container p-0">
+          <a href="{{ block.settings.instagram_url }}" target="_blank" >
+            <img class="lazyload lazypreload instagram-picture" src="{{ block.settings.instagram_photo | image_url }}"
+              alt="{{ block.settings.instagram_photo.alt | escape }}" />
+            <img src={{ "instagram-icon-white.png" | asset_url }} class="instagram-picture-icon" />
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Instagram Gallery",
+  "class": "instagram-gallery",
+  "max_blocks": 4,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "url",
+      "id": "instagram_url",
+      "label": "Instagram URL"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "instagram_photo",
+      "name": "Instagram Photo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "instagram_photo",
+          "label": "Instagram Photo"
+        },
+        {
+          "type": "url",
+          "id": "instagram_url",
+          "label": "Instagram URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Instagram Gallery",
+      "category": "Promotional",
+      "blocks": [
+        {
+          "type": "instagram_photo"
+        },
+        {
+          "type": "instagram_photo"
+        },
+        {
+          "type": "instagram_photo"
+        },
+        {
+          "type": "instagram_photo"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

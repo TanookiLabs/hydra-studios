@@ -50,6 +50,10 @@
   width: 124px;
 }
 
+.get-in-touch-button {
+  cursor: pointer;
+}
+
 .not-in-area {
   font-family: OrpheusPro;
   font-weight: bold;
@@ -179,11 +183,13 @@
 }
 
 .newsletter-submit-button {
+  height: 44px;
   font-size: 22px;
   min-width: 200px;
   background-color: #58718C;
   text-transform: uppercase;
   color: #FFF;
+  border: none;
 }
 
 .newsletter-submit-button:hover {
@@ -303,6 +309,53 @@ a:hover {
   text-decoration: none;
 }
 
+/* Contact us modal */
+.contact-us-modal-title {
+  font-family: Orpheus Pro;
+  font-weight: bold;
+  font-size: 30px;
+  color: #373A36;
+}
+
+.contact-us-bubble-spacer {
+  width: 100px;
+}
+
+.contact-us-label {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #373A36;
+}
+
+.contact-us-input {
+  font-size: 16px;
+  border-radius: 0;
+}
+
+.contact-us-submit-button {
+  height: 44px;
+  font-size: 22px;
+  min-width: 200px;
+  background-color: #58718C;
+  text-transform: uppercase;
+  color: #FFF;
+  border: none;
+}
+
+.contact-us-submit-button:hover {
+  color: #58718C;
+  background-color: #FFF;
+  border: 1px #58718C solid;
+  text-decoration: none;
+}
+
+.contact-us-fine-print {
+  font-size: 16px;
+  line-height: 25px;
+  color: #373A36;
+}
+
 
 /* Appointment page */
 .appointment-page-bg {
@@ -328,7 +381,158 @@ a:hover {
   font-family: MrEavesModOT !important;
 }
 
+.healcode-title-text {
+  color: transparent
+}
 
+.healcode .header h1 {
+  border-bottom: none;
+}
+
+div.healcode a.action_icon img {
+  padding-bottom: 10px;
+}
+
+div.healcode select {
+  font-family: MrEavesModOT;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+}
+
+div.healcode .appointment.button a {
+  width: 84px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #313633;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFF;
+  padding: 9px 12px 8px 13px;
+}
+
+div.healcode .appointment.button a:hover {
+  background-color: #4d8db6;
+  color: #FFF !important;
+}
+
+div.healcode #hc-find-appt {
+  width: 84px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: #313633;
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFF;
+  padding: 9px 12px 8px 13px;
+}
+
+div.healcode #hc-find-appt:hover {
+  background-color: #4d8db6;
+  color: #FFF !important;
+}
+
+div.healcode .trainer-label a {
+  font-family: MrEavesModOT;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #313430;
+}
+
+div.healcode .trainer-label {
+  margin-top: 25px !important;
+  margin-bottom: 10px;
+}
+
+div.healcode .trainer-label:first-of-type {
+  margin-top: 0px;
+}
+
+div.healcode .ui-datepicker {
+  width: 100%;
+  padding: 0;
+  border: solid 1px #d1c1b5;
+  border-radius: 0px;
+  padding-bottom: 15px;
+}
+
+div.healcode .ui-datepicker-header {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #d1c1b5;
+  font-family: MrEavesModOT;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #313430;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.healcode .ui-datepicker-prev,
+div.healcode .ui-datepicker-next {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+div.healcode .ui-datepicker-calendar {
+  font-family: MrEavesModOT;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+div.healcode .ui-datepicker-calendar thead {
+  border-bottom: 1px solid #d1c1b5;
+}
+
+div.healcode .ui-datepicker-calendar .ui-datepicker-unselectable span {
+  text-align: center !important;
+  background: none !important;
+  border: none !important;
+  font-weight: bold !important;
+}
+
+div.healcode .ui-datepicker-calendar .ui-datepicker-current-day a {
+  text-align: center !important;
+  background: none !important;
+  border: none !important;
+  font-weight: bold !important;
+  border-radius: 100px !important;
+  background-color: #4d8db6 !important;
+  color: white !important;
+  width: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.healcode .ui-datepicker-calendar .ui-state-default {
+  text-align: center !important;
+  background: none !important;
+  border: none !important;
+  font-weight: bold !important;
+  border-radius: 100px !important;
+  width: 27px;
+  color: #313430;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.healcode .parsley-required {
+  font-family: 'MrEavesModOT';
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+div.healcode .healcode-date-label {
+  font-family: OrpheusPro;
+  font-size: 22px;
+  color: #313430;
+  border-bottom: none !important;
+}
 
 
 /*============================================================================
@@ -5172,53 +5376,6 @@ hr {
       -ms-align-items: center;
       -o-align-items: center;
       align-items: center; } }
-
-/*================ Modals ================*/
-.modal {
-  -ms-transform: translateY(-20px);
-  -webkit-transform: translateY(-20px);
-  transform: translateY(-20px);
-  background-color: var(--color-bg);
-  bottom: 0;
-  color: var(--color-text);
-  display: none;
-  left: 0;
-  opacity: 0;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  top: 0; }
-
-.modal--is-active {
-  -ms-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-  display: block;
-  opacity: 1;
-  overflow: hidden; }
-
-.modal__inner {
-  -moz-transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  height: 100%; }
-
-.modal__centered {
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  position: relative;
-  top: 50%; }
-
-.modal__close {
-  border: 0;
-  padding: 55px;
-  position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 2; }
-  .modal__close .icon {
-    font-size: calc(((20) / (var(--font-size-base))) * 1em); }
 
 /*============================================================================
   Hero slider

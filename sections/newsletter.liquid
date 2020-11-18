@@ -1,5 +1,5 @@
 <div class="newsletter-section{% if section.settings.show_background %} index-section--newsletter-background{% endif %}">
-  <div class="page-width">
+  <div class="page-width pb-5">
     <div class="section-header text-center mb-5">
       {% if section.settings.section_title != blank %}
       <h2 class="newsletter-title">{{ section.settings.section_title | escape }}</h2>
@@ -11,66 +11,57 @@
       {% endif %}
     </div>
 
-    <div class="mt-4">
-      {% form 'customer', id: formId, novalidate: 'novalidate', class: 'contact-form form-single-field' %}
-      {%- if form.posted_successfully? -%}
-        <p class="form-message form-message--success" tabindex="-1" data-form-status>
-          {{ 'general.newsletter_form.confirmation' | t }}
-        </p>
-      {%- endif -%}
-      <input type="hidden" name="contact[tags]" value="newsletter">
+    <div class="my-4">
+      <form id='newsletter-form'>
+        <input type="hidden" name="contact[tags]" value="newsletter">
 
-      <div class="input-group {% if form.errors %} input-group--error{% endif %}">
         <input type="email"
-          name="contact[email]"
-          id="{{ formId }}-email"
-          class="newsletter-input mr-3 pl-0 text-input {% if form.errors %} input--error{% endif %}"
-          value="{{ form.email }}"
+          id="newsletter-form-email"
+          class="newsletter-input mr-3 pl-0 text-input"
           placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
           aria-label="{{ 'general.newsletter_form.email_placeholder' | t }}"
           aria-required="true"
           autocorrect="off"
           autocapitalize="off"
-          {% if form.errors %}
-            aria-invalid="true"
-            aria-describedby="{{ formId }}-email-error"
-            data-form-status
-          {% endif %}
+          required
         >
 
         <input type="zip"
-          name="contact[zip]"
-          id="{{ formId }}-zip"
-          class="newsletter-input mr-3 pl-0 zip-input {% if form.errors %} input--error{% endif %}"
-          value="{{ form.zip }}"
+          id="newsletter-form-zip"
+          class="newsletter-input mr-3 pl-0 zip-input"
           placeholder="ZIP Code"
           aria-label="ZIP Code"
           aria-required="true"
           autocorrect="off"
           autocapitalize="off"
-          {% if form.errors %}
-            aria-invalid="true"
-            aria-describedby="{{ formId }}-zip-error"
-            data-form-status
-          {% endif %}
+          required
         >
 
-        <button type="submit" class="newsletter-submit-button" name="commit">
+        <button type="submit" class="newsletter-submit-button">
           <span>
-            {{ 'general.newsletter_form.submit' | t }}
+            Subscribe
           </span>
         </button>
-      </div>
-      {%- if form.errors contains 'email' -%}
-        <span id="{{ formId }}-email-error" class="input-error-message">
-          <span class="visually-hidden">{{ 'general.accessibility.error' | t }} </span>
-          {% include 'icon-error' %}
-          <span>{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}.</span>
-        </span>
-      {%- endif -%}
-    {% endform %}
+      </form>
     </div>
   </div>
+
+  <script>
+    $(document).ready(() => {
+      $('#newsletter-form').on('submit', (e) => {
+        e.preventDefault
+        var email = $('#newsletter-form-email').val()
+        var zipCode = $('#newsletter-form-zip').val()
+
+        _learnq.push(['identify', {
+          '$email': email,
+          '$zip': zipCode,
+          'Selection': 'Newsletter',
+          'From': 'ShopifySite'
+        }]);
+      })
+    })
+  </script>
 </div>
 
 {% schema %}

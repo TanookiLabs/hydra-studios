@@ -1,0 +1,67 @@
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content p-2">
+      <div class="modal-header border-0 d-flex justify-content-center">
+        <div>
+          <img class="contact-us-bubble pb-5" src={{ "hydra-droplet.png" | asset_img_url }} />
+        </div>
+        <h5 class="modal-title contact-us-modal-title align-self-end pb-2" id="exampleModalLabel">
+          Get in Touch with Us
+        </h5>
+        <div class="contact-us-bubble-spacer"></div>
+      </div>
+      <div class="modal-body">
+        <form id="contact-us-form">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="First Name" class="contact-us-label">First Name:</label>
+              <input type="text" class="form-control contact-us-input" id="contact-us-first-name" required>
+            </div>
+            <div class="form-group col-md-6">
+              <label for="Last Name" class="contact-us-label">Last Name:</label>
+              <input type="text" class="form-control contact-us-input" id="contact-us-last-name" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="Email" class="contact-us-label">Email:</label>
+            <input type="email" class="form-control contact-us-input" id="contact-us-email" required>
+          </div>
+          <div class="form-group mb-4">
+            <label for="Comments" class="contact-us-label">Comments:</label>
+            <textarea class="form-control contact-us-input" id="contact-us-comments"></textarea>
+          </div>
+
+          <div class='text-center'>
+            <input type="submit" class="contact-us-submit-button mb-4" />
+            <p class="contact-us-fine-print">
+              by signing, you agree to Hydra's Privacy Policy and Terms of Use
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(() => {
+    // var _learnq = _learnq || [];
+    $('#contact-us-form').on('submit', (e) => {
+      e.preventDefault
+      var firstName = $('#contact-us-first-name').val()
+      var lastName = $('#contact-us-last-name').val()
+      var email = $('#contact-us-email').val()
+      var comments = $('#contact-us-comments').val()
+
+      _learnq.push(['identify', {
+        '$email': email,
+        '$last_name': lastName,
+        '$first_name': firstName,
+        'Comments': comments,
+        'Selection': 'ContactUs',
+        'From': 'ShopifySite'
+      }]);
+    })
+  })
+</script>

@@ -5,13 +5,12 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/Hydra_Logo_RGB_White_10277f37-539e-426c-8888-c086015836dd.png",
+          "logo": "shopify:\/\/shop_images\/Screen_Shot_2020-11-19_at_12.29.53_PM-removebg-preview.png",
           "logo_max_width": 195,
-          "main_linklist": "main-menu",
+          "main_linklist": "",
           "message": true,
           "home_page_only": false,
           "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
-          "message_link": "shopify:\/\/collections\/all",
           "color_bg": "#ede9e5",
           "color_text": "#637c97"
         }
@@ -19,7 +18,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/200408_Reception.jpg",
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-19_at_4.27.40_PM.png",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "x-large",
@@ -610,9 +609,7 @@
             "footer-0",
             "footer-1"
           ],
-          "settings": {
-            "show_payment_icons": true
-          }
+          "settings": {}
         }
       },
       "content_for_index": [
@@ -856,10 +853,7 @@
             "text",
             "newsletter"
           ],
-          "settings": {
-            "color_footer_bg": "#f8f8f8",
-            "color_footer_text": "#6d6d6d"
-          }
+          "settings": {}
         }
       },
       "content_for_index": [

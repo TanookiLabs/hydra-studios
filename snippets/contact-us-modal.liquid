@@ -15,6 +15,8 @@
         <form id="contact-us-form">
           <div class="form-row">
             <div class="form-group col-md-6">
+              <input type="hidden" name="contact-submit" value="true">
+
               <label for="First Name" class="contact-us-label">First Name:</label>
               <input type="text" class="form-control contact-us-input" id="contact-us-first-name" required>
             </div>
@@ -35,9 +37,9 @@
           <div class='text-center'>
             <input type="submit" class="contact-us-submit-button mb-4" />
             <p class="contact-us-fine-print">
-              by signing, you agree to Hydra's
-              <a href="/pages/privacy-policy" target="_blank">Privacy Policy</a> and
-              <a href="/pages/terms-and-conditions" target="_blank">Terms of Use</a>
+              by signing, you agree to Hydra's Privacy Policy and Terms of Use
+              <!-- <a href="/pages/privacy-policy" target="_blank">Privacy Policy</a> and
+              <a href="/pages/terms-and-conditions" target="_blank">Terms of Use</a> -->
             </p>
           </div>
         </form>

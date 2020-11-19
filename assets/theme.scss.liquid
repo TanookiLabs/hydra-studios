@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: 'MrEavesModOT';
-  src:  url({{ "MrEavesModOT-Book.woff" | asset_url }}) format('woff'),
-        url({{ "MrEavesModOT-Book.ttf" | asset_url }}) format('truetype');
+  src:  url({{ "MrEavesModOT-Reg.ttf" | asset_url }}) format('truetype'),
+        url({{ "MrEavesModOT-Reg.woff" | asset_url }}) format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -60,7 +60,7 @@
 .navigation-link,
 .healcode-login-register-text-link {
   cursor: pointer;
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   color: white;
   text-transform: uppercase;
   font-size: 20px !important;
@@ -77,6 +77,10 @@
   border-top: 1.5px solid white;
   padding-bottom: 5px;
   padding-top: 5px;
+}
+
+.navigation-link-black {
+  color: #373A36 !important;
 }
 
 .mobile-navigation {
@@ -202,7 +206,7 @@
 }
 
 .service-cost {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 16px;
 }
 
@@ -266,9 +270,9 @@
 
 
 /* Hero */
-.hero-title {
-  font-weight: light !important;
-  line-height: 1.5;
+.hero-main-title {
+  font-family: MrEavesModOT-Book;
+  line-height: 1.4;
   font-size: 40px !important;
   letter-spacing: 2px !important;
   max-width: 450px !important;
@@ -288,7 +292,7 @@ a:hover {
 }
 
 .image-and-text-subtitle p {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 22px !important;
   line-height: 25px;
   color: #373A36;
@@ -306,7 +310,7 @@ a:hover {
 
 /* Rich text */
 .rich-text-header {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-weight: lighter;
   font-size: 45px;
   letter-spacing: 2.25px;
@@ -378,7 +382,7 @@ a:hover {
   text-decoration: none;
 }
 
-/* Contact us modal */
+/* Modals */
 .contact-us-modal-title {
   font-family: Orpheus Pro;
   font-weight: bold;
@@ -425,9 +429,13 @@ a:hover {
   color: #373A36;
 }
 
+.thank-you-modal-title {
+  font-size: 34px;
+}
+
 /* Footer */
 .footer-container {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 16px;
   line-height: 20px;
   color: #808080;
@@ -481,7 +489,7 @@ div.healcode a.action_icon img {
 }
 
 div.healcode select {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: bold;
@@ -521,7 +529,7 @@ div.healcode #hc-find-appt:hover {
 }
 
 div.healcode .trainer-label a {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
@@ -549,7 +557,7 @@ div.healcode .ui-datepicker-header {
   background: none;
   border: none;
   border-bottom: 1px solid #d1c1b5;
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
@@ -565,7 +573,7 @@ div.healcode .ui-datepicker-next {
 }
 
 div.healcode .ui-datepicker-calendar {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
@@ -2650,7 +2658,7 @@ textarea {
 // .healcode-login-register-text-link {
 //   color: white;
 //   text-transform: uppercase;
-//   font-family: MrEavesModOT;
+//   font-family: MrEavesModOT-Book;
 //   font-size : 16px;
 //   margin-right: 15px;
 // }
@@ -6382,7 +6390,7 @@ hr {
     padding-right: 35px; } }
 
 .featured-row__subtext {
-  font-family: MrEavesModOT;
+  font-family: MrEavesModOT-Book;
   font-size: 22px;
   line-height: 25px;
   color: #373A36;
@@ -6440,8 +6448,8 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: var(--color-image-overlay);
-  opacity: var(--opacity-image-overlay);
+  background-color: #3d3d3d;
+  opacity: .15;
   z-index: 1; }
 
 .hero__inner {

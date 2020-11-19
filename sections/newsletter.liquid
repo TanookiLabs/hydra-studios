@@ -11,13 +11,13 @@
       {% endif %}
     </div>
 
-    <div class="my-4">
+    <div class="my-4 text-center">
       <form id='newsletter-form'>
         <input type="hidden" name="contact[tags]" value="newsletter">
 
         <input type="email"
           id="newsletter-form-email"
-          class="newsletter-input mr-3 pl-0 text-input"
+          class="newsletter-input mr-0 mr-md-3 pl-0 mb-3 mb-lg-0 text-input"
           placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
           aria-label="{{ 'general.newsletter_form.email_placeholder' | t }}"
           aria-required="true"
@@ -28,7 +28,7 @@
 
         <input type="zip"
           id="newsletter-form-zip"
-          class="newsletter-input mr-3 pl-0 zip-input"
+          class="newsletter-input mr-0 mr-md-3 pl-0 mb-3 mb-lg-0 zip-input"
           placeholder="ZIP Code"
           aria-label="ZIP Code"
           aria-required="true"

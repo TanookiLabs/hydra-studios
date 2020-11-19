@@ -98,13 +98,13 @@
             <nav class="" id="AccessibleNav" role="navigation">
               <ul class="d-flex mt-5" id="SiteNav">
                 <li>
-                  <a href="#about" class="navigation-link mr-2 mr-lg-4">
+                  <a href="{% if template == 'index' %}#about{% else %}/#about{% endif %}" class="navigation-link mr-2 mr-lg-4">
                     <span class="site-nav__label">About</span>
                   </a>
-                  <a href="#pricing" class="navigation-link mr-2 mr-lg-4">
+                  <a href="{% if template == 'index' %}#pricing{% else %}/#pricing{% endif %}" class="navigation-link mr-2 mr-lg-4">
                     <span class="site-nav__label">Pricing</span>
                   </a>
-                  <a href="#locations" class="navigation-link mr-2 mr-lg-4">
+                  <a href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}" class="navigation-link mr-2 mr-lg-4">
                     <span class="site-nav__label">Locations</span>
                   </a>
                   <span class="navigation-link mr-2 mr-lg-4" data-toggle="modal" data-target="#contactModal">
@@ -129,9 +129,9 @@
         <img src="{{ 'hamburger-icon.png' | asset_img_url }}" class='hamburger-icon' />
       </button>
       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="#about">About</a>
-        <a class="dropdown-item" href="#pricing">Pricing</a>
-        <a class="dropdown-item" href="#locations">Locations</a>
+        <a class="dropdown-item" href="{% if template == 'index' %}#about{% else %}/#about{% endif %}">About</a>
+        <a class="dropdown-item" href="{% if template == 'index' %}#pricing{% else %}/#pricing{% endif %}">Pricing</a>
+        <a class="dropdown-item" href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}">Locations</a>
         <button class="dropdown-item" data-toggle="modal" data-target="#contactModal">Connect</button>
       </div>
     </div>

@@ -1,6 +1,6 @@
 <div class="page-width mb-2 image-and-text-section">
   <div class="w-100 justify-content-between d-flex flex-md-row flex-column {% if section.settings.layout == 'right' %} flex-md-row-reverse{% endif %}">
-    <div class="w-100 {% if section.settings.layout == 'left' %} mr-2{% endif %} {% if section.settings.layout == 'right' %} ml-2{% endif %}">
+    <div class="w-100 {% if section.settings.layout == 'left' %} mr-2{% endif %} {% if section.settings.layout == 'right' %} ml-0 ml-md-2{% endif %}">
       {% if section.settings.image != blank %}
         {%- assign img_url = section.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
         {% include 'image-style', image: section.settings.image, height: 545, wrapper_id: wrapper_id, img_id: img_id %}
@@ -24,7 +24,7 @@
     </div>
 
     <div class="w-100 text-center">
-      <div class="h-100 d-flex flex-column justify-content-center bg-pattern">
+      <div class="feature-info h-100 d-flex flex-column justify-content-center bg-pattern">
         {% if section.settings.title != blank %}
           <h2 class="image-and-text-title mb-4">{{ section.settings.title | escape }}</h2>
         {% endif %}

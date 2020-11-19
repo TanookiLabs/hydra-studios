@@ -40,6 +40,73 @@
   font-style: bold;
 }
 
+/* Header */
+.announcement-bar {
+  font-family: OrpheusPro;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.announcement-bar__message {
+  display: block;
+  padding: 5px 22px;
+  font-family: OrpheusPro;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.navigation-link,
+.healcode-login-register-text-link {
+  cursor: pointer;
+  font-family: MrEavesModOT;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px !important;
+  padding-left: 5px;
+  background: none;
+  border: none;
+}
+
+.navigation-link:hover,
+.healcode-login-register-text-link:hover {
+  color: white !important;
+  text-decoration: none;
+  border-bottom: 1.5px solid white;
+  border-top: 1.5px solid white;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.mobile-navigation {
+  position: absolute;
+  top: 50px;
+  z-index: 200;
+}
+
+.btn.dropdown-toggle.mobile-menu-toggle {
+  background-color: transparent !important;
+  border: none;
+}
+
+.dropleft .dropdown-toggle::before {
+  display: none !important;
+}
+
+.hamburger-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.dropdown-menu.show {
+  left: 0px !important;
+}
+
+.dropdown-item {
+  font-size: 20px;
+}
+
 /* Location */
 .location-caption {
   font-size: 21px;
@@ -73,8 +140,6 @@
   height: 16px;
   width: 16px;
 }
-
-
 
 .instagram-picture {
   min-width: 100%;
@@ -116,10 +181,10 @@
   min-width: 300px;
   width: 32%;
   margin-right: 1%;
+}
 
-  &:last-of-type {
-    margin-right: 0;
-  }
+.pricing-column:last-of-type {
+  margin-right: 0;
 }
 
 .column-title {
@@ -230,6 +295,10 @@ a:hover {
   max-width: 450px;
 }
 
+.feature-info {
+  min-height: 260px;
+}
+
 .bg-pattern {
   background-image: url({{ "texture-background.png" | asset_url }});
 }
@@ -256,23 +325,23 @@ a:hover {
 
 /* Testimonial */
 .testimonial-author {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   font-family: OrpheusPro;
 }
 
-.testimonial-spacer {
-  width: 100px;
-}
-
 .testimonial-bubble-icon {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
 }
 
 .testimonial-quote p {
-  font-size: 26px;
+  font-size: 20px;
   line-height: 1.2;
+}
+
+.testimonial-spacer {
+  width: 50px;
 }
 
 /* Logo bar */
@@ -329,7 +398,7 @@ a:hover {
 }
 
 .contact-us-input {
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 0;
 }
 
@@ -356,6 +425,16 @@ a:hover {
   color: #373A36;
 }
 
+/* Footer */
+.footer-container {
+  font-family: MrEavesModOT;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808080;
+}
+.footer-main {
+  border-top: 1px solid #DFDFDF;
+}
 
 /* Appointment page */
 .appointment-page-bg {
@@ -533,6 +612,20 @@ div.healcode .healcode-date-label {
   color: #313430;
   border-bottom: none !important;
 }
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  .announcement-bar__message {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .pricing-column {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
 
 
 /*============================================================================
@@ -2540,101 +2633,101 @@ textarea {
     width: 100%;
     border-radius: 0 2px 2px 0; }
 
-/*================ #Site Nav and Dropdowns ================*/
-.site-nav--centered {
-  padding-bottom: 22px; }
+// /*================ #Site Nav and Dropdowns ================*/
+// .site-nav--centered {
+//   padding-bottom: 22px; }
 
-/*================ Site Nav Links ================*/
-.site-nav__link,
-.healcode-login-register-text-link {
-  color: white;
-  text-transform: uppercase;
-  font-family: MrEavesModOT;
-  font-size : 16px;
-  margin-right: 15px;
-}
+// /*================ Site Nav Links ================*/
+// .site-nav__link,
+// .healcode-login-register-text-link {
+//   color: white;
+//   text-transform: uppercase;
+//   font-family: MrEavesModOT;
+//   font-size : 16px;
+//   margin-right: 15px;
+// }
 
-.site-nav__link.site-nav--active-dropdown {
-  border: 1px solid var(--color-border);
-  border-bottom: 1px solid transparent;
-  z-index: 2; }
+// .site-nav__link.site-nav--active-dropdown {
+//   border: 1px solid var(--color-border);
+//   border-bottom: 1px solid transparent;
+//   z-index: 2; }
 
-.site-nav__link:focus .site-nav__label, .site-nav__link:not([disabled]):hover .site-nav__label {
-  border-bottom-color: var(--color-text); }
+// .site-nav__link:focus .site-nav__label, .site-nav__link:not([disabled]):hover .site-nav__label {
+//   border-bottom-color: var(--color-text); }
 
-@media only screen and (max-width: 989px) {
-  .site-nav__link--button {
-    font-size: calc(var(--font-size-base) * 1px); } }
+// @media only screen and (max-width: 989px) {
+//   .site-nav__link--button {
+//     font-size: calc(var(--font-size-base) * 1px); } }
 
-.site-nav__link--button:focus, .site-nav__link--button:hover {
-  font-weight: bold; }
+// .site-nav__link--button:focus, .site-nav__link--button:hover {
+//   font-weight: bold; }
 
-/*================ Dropdowns ================*/
-.site-nav--has-dropdown {
-  position: relative; }
+// /*================ Dropdowns ================*/
+// .site-nav--has-dropdown {
+//   position: relative; }
 
-.site-nav--has-centered-dropdown {
-  position: static; }
+// .site-nav--has-centered-dropdown {
+//   position: static; }
 
-.site-nav__dropdown {
-  display: none;
-  position: absolute;
-  padding: 11px 30px 11px 0;
-  margin: 0;
-  z-index: 7;
-  text-align: left;
-  border: 1px solid var(--color-border);
-  background: var(--color-bg);
-  left: -1px;
-  top: 41px; }
-  .site-nav__dropdown .site-nav__link {
-    padding: 4px 15px 5px; }
-  .site-nav--active-dropdown .site-nav__dropdown {
-    display: block; }
-  .site-nav__dropdown li {
-    display: block; }
+// .site-nav__dropdown {
+//   display: none;
+//   position: absolute;
+//   padding: 11px 30px 11px 0;
+//   margin: 0;
+//   z-index: 7;
+//   text-align: left;
+//   border: 1px solid var(--color-border);
+//   background: var(--color-bg);
+//   left: -1px;
+//   top: 41px; }
+//   .site-nav__dropdown .site-nav__link {
+//     padding: 4px 15px 5px; }
+//   .site-nav--active-dropdown .site-nav__dropdown {
+//     display: block; }
+//   .site-nav__dropdown li {
+//     display: block; }
 
-.site-nav__dropdown--right:not(.site-nav__dropdown--centered) {
-  right: 0;
-  left: unset; }
+// .site-nav__dropdown--right:not(.site-nav__dropdown--centered) {
+//   right: 0;
+//   left: unset; }
 
-.site-nav__dropdown--left:not(.site-nav__dropdown--centered) {
-  left: 0; }
+// .site-nav__dropdown--left:not(.site-nav__dropdown--centered) {
+//   left: 0; }
 
-.site-nav__dropdown--centered {
-  width: 100%;
-  padding: 0;
-  text-align: center; }
+// .site-nav__dropdown--centered {
+//   width: 100%;
+//   padding: 0;
+//   text-align: center; }
 
-/*================ Child list ================*/
-.site-nav__childlist {
-  display: inline-block;
-  background: var(--color-bg);
-  padding: 11px 17px;
-  text-align: left; }
+// /*================ Child list ================*/
+// .site-nav__childlist {
+//   display: inline-block;
+//   background: var(--color-bg);
+//   padding: 11px 17px;
+//   text-align: left; }
 
-.site-nav__childlist-grid {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  width: auto;
-  margin-bottom: -15px; }
+// .site-nav__childlist-grid {
+//   display: -webkit-flex;
+//   display: -ms-flexbox;
+//   display: flex;
+//   width: 100%;
+//   -webkit-flex-wrap: wrap;
+//   -moz-flex-wrap: wrap;
+//   -ms-flex-wrap: wrap;
+//   flex-wrap: wrap;
+//   width: auto;
+//   margin-bottom: -15px; }
 
-.site-nav__childlist-item {
-  -webkit-flex: 0 1 auto;
-  -moz-flex: 0 1 auto;
-  -ms-flex: 0 1 auto;
-  flex: 0 1 auto;
-  margin-bottom: 15px; }
+// .site-nav__childlist-item {
+//   -webkit-flex: 0 1 auto;
+//   -moz-flex: 0 1 auto;
+//   -ms-flex: 0 1 auto;
+//   flex: 0 1 auto;
+//   margin-bottom: 15px; }
 
-.site-nav__child-link--parent {
-  font-weight: var(--font-weight-body--bold);
-  margin: 4px 0; }
+// .site-nav__child-link--parent {
+//   font-weight: var(--font-weight-body--bold);
+//   margin: 4px 0; }
 
 body.prevent-scrolling {
   overflow: hidden;
@@ -4387,18 +4480,6 @@ hr {
 .announcement-bar__link {
   display: block; }
 
-.announcement-bar__message {
-  display: block;
-  padding: 5px 22px;
-  font-family: OrpheusPro;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 36px;
-  }
-  @media only screen and (min-width: 750px) {
-    .announcement-bar__message {
-      padding-left: 55px;
-      padding-right: 55px; } }
 
 .article-listing {
   padding-top: 55px;

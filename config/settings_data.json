@@ -166,32 +166,7 @@
       },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "link_list",
-            "settings": {
-              "title": "Quick links",
-              "menu": "footer"
-            }
-          },
-          "footer-1": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-1"
-        ],
-        "settings": {
-          "show_payment_icons": true,
-          "color_footer_bg": "#f6f6f6",
-          "color_footer_text": "#333232",
-          "show_locale_selector": true,
-          "show_currency_selector": true
-        }
+        "settings": {}
       },
       "1604515983c3cb4c06": {
         "type": "rich-text",
@@ -234,6 +209,20 @@
       "1605280292657652d9": {
         "type": "quotes",
         "blocks": {
+          "1605280292657652d9-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Thank you for creating a place that has made it possible for me to make more space within my body and mind.<\/p>",
+              "author": "Hadia S."
+            }
+          },
+          "1605280292657652d9-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Between the super friendly staff, incredible instructors, diverse classes and gorgeous environment, Hydra Studios is a truly rewarding experience.<\/p>",
+              "author": "Jenn Z."
+            }
+          },
           "1605280292657652d9-0": {
             "type": "quote",
             "settings": {
@@ -241,25 +230,19 @@
               "author": "Jonathan O."
             }
           },
-          "1605280292657652d9-1": {
+          "b77054be-7829-41fa-b829-115e8a116a8b": {
             "type": "quote",
             "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
-            }
-          },
-          "1605280292657652d9-2": {
-            "type": "quote",
-            "settings": {
-              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-              "author": "Author's name"
+              "quote": "<p>Always a smile, immaculate luxe facilities. The accessibility of the Hydra Studios facilities has been a game-changer.<\/p>",
+              "author": "Gus G."
             }
           }
         },
         "block_order": [
-          "1605280292657652d9-0",
           "1605280292657652d9-1",
-          "1605280292657652d9-2"
+          "1605280292657652d9-2",
+          "1605280292657652d9-0",
+          "b77054be-7829-41fa-b829-115e8a116a8b"
         ],
         "settings": {
           "title": ""
@@ -327,7 +310,7 @@
             "settings": {
               "title": "Flex Membership",
               "price": "$119\/Mo",
-              "description": "<p>Unlimited private room bookings<br\/>Unlimited Infrared Sauna bookings<br\/>No sign-up fee<br\/>No annual commitment<br\/>Cancel at any time<\/p>",
+              "description": "<p>Unlimited private room bookings<br\/>2 infrared sauna bookings per month<br\/>No sign-up fee<br\/>No annual commitment<br\/>Cancel at any time<\/p>",
               "column_number": "one",
               "bottom_border": "no"
             }
@@ -376,8 +359,8 @@
             "type": "service_offerings",
             "settings": {
               "title": "Infrared sauna session",
-              "price": "$44",
-              "description": "<p>45 minutes, individual sessions only<\/p>",
+              "price": "",
+              "description": "<p>Coming soon<\/p>",
               "column_number": "two",
               "bottom_border": "no"
             }
@@ -389,24 +372,14 @@
               "price": "",
               "description": "<p>Boutique fitness &amp; wellness classes<\/p>",
               "column_number": "three",
-              "bottom_border": "no"
-            }
-          },
-          "b95dddd1-620f-4979-aa77-27efb5a335a4": {
-            "type": "service_offerings",
-            "settings": {
-              "title": "Single class",
-              "price": "$24",
-              "description": "",
-              "column_number": "three",
-              "bottom_border": "no"
+              "bottom_border": "yes"
             }
           },
           "985b35aa-29ec-4774-81d5-37fa139afd23": {
             "type": "service_offerings",
             "settings": {
               "title": "Unlimited class add-on",
-              "price": "+ $30\/Mo",
+              "price": "",
               "description": "<p>Flex membership required<\/p>",
               "column_number": "three",
               "bottom_border": "yes"
@@ -421,26 +394,6 @@
               "column_number": "three",
               "bottom_border": "no"
             }
-          },
-          "a8b7a0b0-5a84-4114-9414-32d8329c8a24": {
-            "type": "service_offerings",
-            "settings": {
-              "title": "Single",
-              "price": "$10",
-              "description": "",
-              "column_number": "three",
-              "bottom_border": "no"
-            }
-          },
-          "09c6cd75-114c-47f4-a7cf-f9c0b763271c": {
-            "type": "service_offerings",
-            "settings": {
-              "title": "Unlimited",
-              "price": "$30\/Mo",
-              "description": "",
-              "column_number": "three",
-              "bottom_border": "no"
-            }
           }
         },
         "block_order": [
@@ -451,11 +404,8 @@
           "0fd712f6-48ef-4692-b0b3-c78fe88bbb92",
           "4792a0ba-1131-4eb0-bc70-6764ac0d2c28",
           "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388",
-          "b95dddd1-620f-4979-aa77-27efb5a335a4",
           "985b35aa-29ec-4774-81d5-37fa139afd23",
-          "749015a7-d409-4e75-bb33-2662d372435b",
-          "a8b7a0b0-5a84-4114-9414-32d8329c8a24",
-          "09c6cd75-114c-47f4-a7cf-f9c0b763271c"
+          "749015a7-d409-4e75-bb33-2662d372435b"
         ],
         "settings": {
           "title": "Pricing \/ Menu",

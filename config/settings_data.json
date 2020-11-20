@@ -5,12 +5,13 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/Screen_Shot_2020-11-19_at_12.29.53_PM-removebg-preview.png",
-          "logo_max_width": 195,
+          "logo": "shopify:\/\/shop_images\/Hydra_Logo_RGB.png",
+          "logo_max_width": 185,
           "main_linklist": "",
           "message": true,
           "home_page_only": false,
           "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
+          "message_link": "shopify:\/\/pages\/covid-guidelines",
           "color_bg": "#ede9e5",
           "color_text": "#637c97"
         }
@@ -225,7 +226,7 @@
           "1605280292657652d9-0": {
             "type": "quote",
             "settings": {
-              "quote": "<p>I have always wanted to bike to work, but the need to be clean and presentable in the office made it unreasonable.  Hydra Studios has effectively given me two hours back into my day.<\/p>",
+              "quote": "<p>Hydra Studios has effectively given me two hours back into my day, as I can now workout to and from the office.<\/p>",
               "author": "Jonathan O."
             }
           },
@@ -377,7 +378,7 @@
           "985b35aa-29ec-4774-81d5-37fa139afd23": {
             "type": "service_offerings",
             "settings": {
-              "title": "Unlimited class add-on",
+              "title": "Unlimited class membership add-on",
               "price": "",
               "description": "<p>Flex membership required<\/p>",
               "column_number": "three",

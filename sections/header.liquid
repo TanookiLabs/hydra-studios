@@ -107,9 +107,10 @@
                   <a href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}" class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %}  mr-2 mr-lg-4">
                     <span class="site-nav__label">Locations</span>
                   </a>
-                  <span class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %} mr-2 mr-lg-4" data-toggle="modal" data-target="#contactModal">
+                  <span class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %}" data-toggle="modal" data-target="#contactModal">
                     <span class="site-nav__label">Connect</span>
                   </span>
+                  <!-- mr-2 mr-lg-4 -->
                   <!-- <healcode-widget data-version="0.2" data-link-class="healcode-login-register-text-link {% if template != 'index' %}navigation-link-black{% endif %}" data-site-id="97924"
                     data-mb-site-id="990566" data-type="account-link" data-inner-html="Login" /> -->
                 </li>
@@ -122,7 +123,9 @@
   </header>
 
   <nav class="d-md-none d-flex w-100 mobile-navigation justify-content-between" role="navigation">
-    <img class="lazyload js mobile-logo px-3 py-3" src="{{ section.settings.logo | img_url }}" />
+    <a href="/">
+      <img class="lazyload js mobile-logo px-3 py-3" src="{{ section.settings.logo | img_url }}" />
+    </a>
 
     <div class="dropleft">
       <button type="button" class="btn dropdown-toggle mobile-menu-toggle py-4 px-4" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

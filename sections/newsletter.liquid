@@ -12,56 +12,9 @@
     </div>
 
     <div class="my-4 text-center">
-      <form id='newsletter-form'>
-        <input type="hidden" name="newsletter-submit" value="true">
-
-        <input type="email"
-          id="newsletter-form-email"
-          class="newsletter-input mr-0 mr-md-3 pl-0 mb-3 mb-lg-0 text-input"
-          placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}"
-          aria-label="{{ 'general.newsletter_form.email_placeholder' | t }}"
-          aria-required="true"
-          autocorrect="off"
-          autocapitalize="off"
-          required
-        >
-
-        <input type="zip"
-          id="newsletter-form-zip"
-          class="newsletter-input mr-0 mr-md-3 pl-0 mb-3 mb-lg-0 zip-input"
-          placeholder="ZIP Code"
-          aria-label="ZIP Code"
-          aria-required="true"
-          autocorrect="off"
-          autocapitalize="off"
-          required
-        >
-
-        <button type="submit" class="newsletter-submit-button">
-          <span>
-            Subscribe
-          </span>
-        </button>
-      </form>
+      <div class="klaviyo-form-XHTT4n"></div>
     </div>
   </div>
-
-  <script>
-    $(document).ready(() => {
-      $('#newsletter-form').on('submit', (e) => {
-        e.preventDefault
-        var email = $('#newsletter-form-email').val()
-        var zipCode = $('#newsletter-form-zip').val()
-
-        _learnq.push(['identify', {
-          '$email': email,
-          '$zip': zipCode,
-          'Selection': 'Newsletter',
-          'From': 'ShopifySite'
-        }]);
-      })
-    })
-  </script>
 </div>
 
 {% schema %}

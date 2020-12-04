@@ -464,13 +464,34 @@ a:hover {
   padding-top: 230px;
 }
 
+/* Tenant page */
+.tenant-invitation {
+  min-height: calc(100vh - 230px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tenant-invitation .healcode-link {
+  font-size: 22px;
+  min-width: 250px;
+  margin-top: 27.5px;
+  background-color: #58718C;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.tenant-invitation .healcode-link:hover {
+  color: #FFF !important;
+  background-color: #4d8db6 !important;
+  border: 1px #4d8db6 solid;
+  text-decoration: none !important;
+}
+
 /* COVID page */
 .covid-container {
   background-color: #f1f3f1;
   padding-top: 230px;
-}
-
-.covid-hero {
 }
 
 .covid-header {
@@ -715,6 +736,90 @@ div.healcode .healcode-date-label {
     width: 100%;
     margin: 0px;
   }
+}
+
+
+/* Klaviyo Forms */
+#contactModal .klaviyo-form label {
+  font-family: MrEavesModOT;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #373A36;
+}
+
+#contactModal .klaviyo-form input {
+  font-family: MrEavesModOT;
+  height: 44px;
+  font-size: 20px;
+}
+
+#contactModal .klaviyo-form input[aria-label="Comments:"] {
+  height: 94px;
+}
+
+#contactModal .klaviyo-form button {
+  font-family: MrEavesModOT;
+  height: 44px;
+  font-size: 22px;
+  min-width: 200px;
+  background-color: #58718C;
+  text-transform: uppercase;
+  color: #FFF;
+  border: 1px #58718C solid;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#contactModal .klaviyo-form {
+  max-width
+}
+
+#contactModal .klaviyo-form button:hover {
+  color: #58718C;
+  background-color: #FFF;
+  border: 1px #58718C solid;
+  text-decoration: none;
+}
+
+.newsletter-section .klaviyo-form button {
+  font-family: MrEavesModOT-Book !important;
+  height: 44px;
+  font-size: 22px !important;
+  text-transform: uppercase !important;
+  color: #FFF;
+  letter-spacing: 1px;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.newsletter-section .klaviyo-form input {
+  font-family: MrEavesModOT-Book !important;
+  background-color: transparent !important;
+  border-top: none !important;
+  border-right: none !important;
+  border-left: none !important;
+  padding-left: 0 !important;
+  font-size: 20px !important;
+  border-bottom: 1px #373A36 solid !important;
+}
+
+.newsletter-section .klaviyo-form button::hover {
+  color: #58718C !important;
+  border: 1px #58718C solid !important;
+  text-decoration: none !important;
+}
+
+.newsletter-section .klaviyo-form input::placeholder {
+  font-family: MrEavesModOT-Book !important;
+  font-size: 22px !important;
+  color: #373A36 !important;
 }
 
 
@@ -7574,4 +7679,29 @@ hr {
   float: right
 }
 
+.basic-page-container .rte p,
+.basic-page-container .rte li {
+  font-size: 20px;
+  font-family: MrEavesModOT-Book;
+}
 
+.buy-now-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.buy-now-button a {
+  font-size: 22px;
+  min-width: 250px;
+  margin-top: 27.5px;
+  background-color: #58718C;
+  color: #FFF;
+  padding: 10px 30px;
+}
+
+.buy-now-button a:hover {
+  color: #58718C;
+  background-color: transparent;
+  border: 1px #58718C solid;
+  text-decoration: none;
+}

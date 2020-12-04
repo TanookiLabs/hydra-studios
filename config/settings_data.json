@@ -1,5 +1,6 @@
 {
   "current": {
+    "favicon": "shopify:\/\/shop_images\/Hydra_ICON_028d9aff-286d-4fde-987a-c80175d6e96e.png",
     "sections": {
       "header": {
         "type": "header",
@@ -10,7 +11,7 @@
           "main_linklist": "",
           "message": true,
           "home_page_only": false,
-          "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more",
+          "message_text": "Our cleaning standards exceed the NYC COVID-19 guidelines. Your safety is our priority. Learn more here.",
           "message_link": "shopify:\/\/pages\/covid-guidelines",
           "color_bg": "#ede9e5",
           "color_text": "#637c97"
@@ -36,7 +37,7 @@
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png",
           "layout": "left",
           "title": "Activate",
-          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, MIRROR, TRX, or weightlifting session<br\/>Suites cleaned between each use<\/p>",
+          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Suites cleaned between each use<\/p>",
           "button_label": ""
         }
       },
@@ -173,7 +174,7 @@
         "settings": {
           "full_width": true,
           "section_title": "OWN YOUR DAY",
-          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out<\/p><p>Optimize your body, health, and mind by reserving private rooms, cleaned between each use, for mental and physical wellness<\/p>"
+          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out.<\/p><p>Optimize your body, health, and mind by reserving private rooms for mental and physical wellness.<\/p>"
         }
       },
       "1605030713bd892543": {
@@ -182,7 +183,7 @@
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.44.52_AM.png",
           "layout": "right",
           "title": "Refresh",
-          "text": "<p>Locker Storage<br\/>Changing Areas<br\/>Rainfall Showers &amp; Towel Service<br\/>Steam &amp; Infrared Sauna<\/p>",
+          "text": "<p>Locker storage<br\/>Changing areas<br\/>Rainfall showers &amp; towel service<br\/>Steam &amp; infrared sauna<\/p>",
           "button_label": ""
         }
       },
@@ -192,7 +193,7 @@
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_1.48.20_PM.png",
           "layout": "left",
           "title": "Recharge",
-          "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; Pristine<\/p>",
+          "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; pristine<\/p>",
           "button_label": ""
         }
       },
@@ -202,7 +203,7 @@
           "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.47.46_AM.png",
           "layout": "right",
           "title": "Reset",
-          "text": "<p>Vanity Stations<br\/>Curated Product Selection<br\/>Dyson Hair Dryers<\/p>",
+          "text": "<p>Vanity stations<br\/>Curated product selection<br\/>Dyson hair dryers<\/p>",
           "button_label": ""
         }
       },
@@ -329,8 +330,8 @@
             "type": "service_offerings",
             "settings": {
               "title": "Fitness Suite",
-              "price": "$28\/Mo",
-              "description": "<p>Peloton, TRX, MIRROR, or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
+              "price": "$28",
+              "description": "<p>Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
               "column_number": "two",
               "bottom_border": "yes"
             }
@@ -348,7 +349,7 @@
           "0fd712f6-48ef-4692-b0b3-c78fe88bbb92": {
             "type": "service_offerings",
             "settings": {
-              "title": "Recharge session",
+              "title": "Recharge Session",
               "price": "$24",
               "description": "<p>Mental wellness room for nap or meditation<\/p>",
               "column_number": "two",
@@ -358,7 +359,7 @@
           "4792a0ba-1131-4eb0-bc70-6764ac0d2c28": {
             "type": "service_offerings",
             "settings": {
-              "title": "Infrared sauna session",
+              "title": "Infrared Sauna Session",
               "price": "",
               "description": "<p>Coming soon<\/p>",
               "column_number": "two",
@@ -368,9 +369,9 @@
           "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388": {
             "type": "service_offerings",
             "settings": {
-              "title": "Semi-private classes",
+              "title": "Semi-private Classes",
               "price": "",
-              "description": "<p>Boutique fitness &amp; wellness classes<\/p>",
+              "description": "<p>Boutique fitness and wellness classes<\/p>",
               "column_number": "three",
               "bottom_border": "yes"
             }
@@ -378,9 +379,9 @@
           "985b35aa-29ec-4774-81d5-37fa139afd23": {
             "type": "service_offerings",
             "settings": {
-              "title": "Unlimited class membership add-on",
+              "title": "Unlimited Class Membership",
               "price": "",
-              "description": "<p>Flex membership required<\/p>",
+              "description": "<p>Flex membership + unlimited classes<\/p>",
               "column_number": "three",
               "bottom_border": "yes"
             }
@@ -388,7 +389,7 @@
           "749015a7-d409-4e75-bb33-2662d372435b": {
             "type": "service_offerings",
             "settings": {
-              "title": "Virtual classes",
+              "title": "Virtual Classes",
               "price": "",
               "description": "<p>Digital, on-demand fitness and wellness classes from top NYC instructors<\/p>",
               "column_number": "three",
@@ -409,7 +410,7 @@
         ],
         "settings": {
           "title": "Pricing \/ Menu",
-          "column_1_title": "Flex Memberships",
+          "column_1_title": "Memberships",
           "column_2_title": "Individual Sessions",
           "column_3_title": "Coming Soon"
         }
@@ -428,7 +429,7 @@
         "type": "newsletter",
         "settings": {
           "section_title": "DON'T STRESS",
-          "subheading": "<p>Subscribe for updates on locations and memberships<\/p>",
+          "subheading": "<p>Subscribe for updates on locations and membership<\/p>",
           "show_background": true
         }
       },

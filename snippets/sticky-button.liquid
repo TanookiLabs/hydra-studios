@@ -1,0 +1,21 @@
+<div class="d-none d-md-none book-appt-sticky" id="sticky-button">
+  <a href="/pages/book-appointment" class="sticky-book-session py-2 px-4">
+    <span class="site-nav__label">BOOK A SESSION</span>
+  </a>
+</div>
+
+<script>
+  $(window).scroll((e) => {
+    const position = $(window).scrollTop()
+
+    if (position > 200) {
+      $('#sticky-button').addClass('position-sticky')
+      $('#sticky-button').addClass('d-md-block')
+      $('#sticky-button').removeClass('d-md-none')
+    } else {
+      $('#sticky-button').removeClass('position-sticky')
+      $('#sticky-button').removeClass('d-md-block')
+      $('#sticky-button').addClass('d-md-none')
+    }
+  })
+</script>

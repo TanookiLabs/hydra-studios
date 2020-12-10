@@ -107,9 +107,14 @@
                   <a href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}" class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %}  mr-2 mr-lg-4">
                     <span class="site-nav__label">Locations</span>
                   </a>
-                  <span class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %}" data-toggle="modal" data-target="#contactModal">
+                  <span class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %} mr-2 mr-lg-4" data-toggle="modal" data-target="#contactModal">
                     <span class="site-nav__label">Connect</span>
                   </span>
+                  <a href="/pages/book-appointment"
+                    class="header-book-session py-2 px-4">
+                    <span class="site-nav__label">BOOK A SESSION</span>
+                  </a>
+
                   <!-- mr-2 mr-lg-4 -->
                   <!-- <healcode-widget data-version="0.2" data-link-class="healcode-login-register-text-link {% if template != 'index' %}navigation-link-black{% endif %}" data-site-id="97924"
                     data-mb-site-id="990566" data-type="account-link" data-inner-html="Login" /> -->
@@ -136,6 +141,7 @@
         <a class="dropdown-item" href="{% if template == 'index' %}#pricing{% else %}/#pricing{% endif %}">Pricing</a>
         <a class="dropdown-item" href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}">Locations</a>
         <button class="dropdown-item" data-toggle="modal" data-target="#contactModal">Connect</button>
+        <a class="dropdown-item" href="/pages/book-appointment">Book a Session</a>
       </div>
     </div>
   </nav>

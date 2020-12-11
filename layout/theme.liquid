@@ -187,7 +187,10 @@
   {%- endif -%}
 
   {% section 'header' %}
-  {% include 'sticky-button' %}
+
+  {% if page.url != '/pages/book-appointment' %}
+    {% include 'sticky-button' %}
+  {% endif %}
 
   <div class="page-container drawer-page-content" id="PageContainer">
 

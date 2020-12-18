@@ -108,10 +108,12 @@
                   <span class="navigation-link {% if template != 'index' %}navigation-link-black{% endif %} mr-2 mr-lg-4" data-toggle="modal" data-target="#contactModal">
                     <span class="site-nav__label">Connect</span>
                   </span>
-                  <a href="/pages/book-appointment"
-                    class="header-book-session py-2 px-4">
-                    <span class="site-nav__label">BOOK A SESSION</span>
-                  </a>
+                  {% if page.url != '/pages/for-tenants' %}
+                    <a href="/pages/book-appointment"
+                      class="header-book-session py-2 px-4">
+                      <span class="site-nav__label">BOOK A SESSION</span>
+                    </a>
+                  {% endif %}
 
                   <!-- mr-2 mr-lg-4 -->
                   <!-- <healcode-widget data-version="0.2" data-link-class="healcode-login-register-text-link {% if template != 'index' %}navigation-link-black{% endif %}" data-site-id="97924"

@@ -109,10 +109,11 @@
                     <span class="site-nav__label">Connect</span>
                   </span>
                   {% if page.url != '/pages/for-tenants' %}
-                    <a href="/pages/book-appointment"
-                      class="header-book-session py-2 px-4">
-                      <span class="site-nav__label">BOOK A SESSION</span>
-                    </a>
+                    <span class="">
+                      <healcode-widget data-version="0.2" data-link-class="py-2 px-4 header-book-session healcode-contract-text-link buy-now-button site-nav__label"
+                        data-site-id="97924" data-mb-site-id="990566" data-type="contract-link" data-inner-html="BECOME A MEMBER"
+                        data-service-id="100" />
+                    </span>
                   {% endif %}
 
                   <!-- mr-2 mr-lg-4 -->
@@ -141,7 +142,10 @@
         <a class="dropdown-item" href="{% if template == 'index' %}#pricing{% else %}/#pricing{% endif %}">Pricing</a>
         <a class="dropdown-item" href="{% if template == 'index' %}#locations{% else %}/#locations{% endif %}">Locations</a>
         <button class="dropdown-item" data-toggle="modal" data-target="#contactModal">Connect</button>
-        <a class="dropdown-item" href="/pages/book-appointment">Book a Session</a>
+        <healcode-widget data-version="0.2"
+          data-link-class="dropdown-item"
+          data-site-id="97924" data-mb-site-id="990566" data-type="contract-link" data-inner-html="Become a Member"
+          data-service-id="100" />
       </div>
     </div>
   </nav>

@@ -1,5 +1,6 @@
 {
   "current": {
+    "type_header_base_size": 24,
     "favicon": "shopify:\/\/shop_images\/Hydra_ICON_028d9aff-286d-4fde-987a-c80175d6e96e.png",
     "sections": {
       "header": {
@@ -331,7 +332,7 @@
             "settings": {
               "title": "Fitness Suite",
               "price": "$28",
-              "description": "<p>Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
+              "description": "<p>MIRROR, TRX, or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
               "column_number": "two",
               "bottom_border": "yes"
             }

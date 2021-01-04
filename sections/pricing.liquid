@@ -6,6 +6,11 @@
 
     <div class='d-flex flex-column flex-md-row justify-content-around flex-row-wrap'>
       <div class='pricing-column px-3 py-5 my-md-0 my-3'>
+        <div class="buy-now-button mt-0 mb-4 pb-2">
+          <healcode-widget data-version="0.2" data-link-class="healcode-contract-text-link" data-site-id="97924"
+            data-mb-site-id="990566" data-type="contract-link" data-inner-html="BECOME A MEMBER" data-service-id="100" />
+        </div>
+
         <h5 class="column-title mb-5">
           {{ section.settings.column_1_title }}
         </h5>
@@ -29,21 +34,15 @@
             {% endif %}
           {% endif %}
         {% endfor %}
-
-        <!-- <div class="buy-now-button">
-          <healcode-widget
-            data-version="0.2"
-            data-link-class="healcode-contract-text-link"
-            data-site-id="97924"
-            data-mb-site-id="990566"
-            data-type="contract-link"
-            data-inner-html="BECOME A MEMBER"
-            data-service-id="100"
-          />
-        </div> -->
       </div>
 
       <div class='pricing-column px-3 py-5 my-md-0 my-3'>
+        <div class="buy-now-button mt-0 mb-4 pb-2">
+          <a href="/pages/book-appointment" class="healcode-contract-text-link">
+            BOOK A SESSION
+          </a>
+        </div>
+
         <h5 class="column-title mb-5">
           {{ section.settings.column_2_title }}
         </h5>

@@ -1,14 +1,16 @@
 {
   "current": {
     "type_header_base_size": 24,
+    "social_facebook_link": "https:\/\/www.facebook.com\/HydraStudiosNYC\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/hydra_studios\/",
     "favicon": "shopify:\/\/shop_images\/Hydra_ICON_028d9aff-286d-4fde-987a-c80175d6e96e.png",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/Hydra_Logo_RGB.png",
-          "logo_max_width": 185,
+          "logo": "shopify:\/\/shop_images\/Hydra_Logo_RGB_536a04c4-728a-4ef4-902c-314375380571.png",
+          "logo_max_width": 195,
           "main_linklist": "",
           "message": true,
           "home_page_only": false,
@@ -21,11 +23,11 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-19_at_4.27.40_PM.png",
+          "image": "shopify:\/\/shop_images\/custom_resized_78c32a1d-d759-4339-a544-608031744913.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "x-large",
-          "text_size": "medium",
+          "text_size": "42",
           "title": "YOUR PRIVATE WELLNESS STUDIO IN THE HEART OF THE CITY",
           "text": "",
           "button_label": "Book a Session",
@@ -35,7 +37,10 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.43.10_AM.png",
+          "image": "shopify:\/\/shop_images\/20201211-DSC06087-Edit-min.jpg",
+          "image_2": "shopify:\/\/shop_images\/20201211-DSC04036-Edit-min.jpg",
+          "image_3": "shopify:\/\/shop_images\/20201211-DSC03635-Edit-min_1.jpg",
+          "image_4": "shopify:\/\/shop_images\/20201211-DSC05345-Edit-min.jpg",
           "layout": "left",
           "title": "Activate",
           "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Suites cleaned between each use<\/p>",
@@ -175,13 +180,16 @@
         "settings": {
           "full_width": true,
           "section_title": "OWN YOUR DAY",
-          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out.<\/p><p>Optimize your body, health, and mind by reserving private rooms for mental and physical wellness.<\/p>"
+          "text": "<p>Hydra Studios is a modern approach to wellness, helping you restore what daily life takes out.<\/p><p>Optimize your body, health, and mind by reserving private suites for physical and mental wellness.<\/p>"
         }
       },
       "1605030713bd892543": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.44.52_AM.png",
+          "image": "shopify:\/\/shop_images\/20201211-DSC05653-Edit-min.jpg",
+          "image_2": "shopify:\/\/shop_images\/20201211-DSC05840-Edit-min.jpg",
+          "image_3": "shopify:\/\/shop_images\/20201211-DSC05991-Edit-min.jpg",
+          "image_4": "shopify:\/\/shop_images\/20201211-DSC05903-min.jpg",
           "layout": "right",
           "title": "Refresh",
           "text": "<p>Locker storage<br\/>Changing areas<br\/>Rainfall showers &amp; towel service<br\/>Steam &amp; infrared sauna<\/p>",
@@ -191,8 +199,10 @@
       "1605030732ff11798f": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_1.48.20_PM.png",
-          "layout": "left",
+          "image": "shopify:\/\/shop_images\/20201211-DSC03679-Edit-min.jpg",
+          "image_2": "shopify:\/\/shop_images\/20201211-DSC04932-min.jpg",
+          "image_3": "shopify:\/\/shop_images\/20201211-DSC05480-min.jpg",
+          "layout": "right",
           "title": "Recharge",
           "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; pristine<\/p>",
           "button_label": ""
@@ -201,9 +211,12 @@
       "160503408969e3c746": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-10_at_8.47.46_AM.png",
-          "layout": "right",
-          "title": "Reset",
+          "image": "shopify:\/\/shop_images\/20201211-DSC05823-Edit-min_1.jpg",
+          "image_2": "shopify:\/\/shop_images\/20201211-DSC06040-min_82e4010c-fe0e-482e-a8bd-801bb4aa14bd.jpg",
+          "image_3": "shopify:\/\/shop_images\/20201211-DSC03648-min_07c42913-3abe-4161-957d-8eaf327944f5.jpg",
+          "image_4": "shopify:\/\/shop_images\/20201211-DSC05804-Edit-min.jpg",
+          "layout": "left",
+          "title": "Prep",
           "text": "<p>Vanity stations<br\/>Curated product selection<br\/>Dyson hair dryers<\/p>",
           "button_label": ""
         }
@@ -410,7 +423,7 @@
           "749015a7-d409-4e75-bb33-2662d372435b"
         ],
         "settings": {
-          "title": "Pricing \/ Menu",
+          "title": "Menu",
           "column_1_title": "Memberships",
           "column_2_title": "Individual Sessions",
           "column_3_title": "Coming Soon"
@@ -420,10 +433,10 @@
         "type": "locations",
         "settings": {
           "title": "Locations",
-          "main_location": "<p><strong>120 Wall Street New York, NY<br\/>Coming Soon<\/strong><\/p>",
-          "main_location_image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-16_at_6.30.07_PM.png",
+          "main_location": "<p><strong>120 Wall Street New York, NY<br\/>Now Open<\/strong><\/p>",
+          "main_location_image": "shopify:\/\/shop_images\/20201211-DSC03467-Edit-min_d802f152-e91b-4dea-bb38-ebcacff37b3f.jpg",
           "secondary_location": "<p><strong>Fifth Avenue<br\/>Exclusively Serving Convene<\/strong><\/p>",
-          "second_location_image": "shopify:\/\/shop_images\/Screen_Shot_2020-11-16_at_6.30.29_PM.png"
+          "second_location_image": "shopify:\/\/shop_images\/HydraStudios-121.jpg"
         }
       },
       "1605579672e6211d63": {
@@ -476,6 +489,50 @@
           "title": "STAY REFRESHED",
           "instagram_url": "https:\/\/www.instagram.com\/hydra_studios\/"
         }
+      },
+      "16115011202ec85d8a": {
+        "type": "press",
+        "blocks": {
+          "2e9d02c0-e032-4aa3-94da-2985dc25391b": {
+            "type": "articles",
+            "settings": {
+              "publication_logo": "shopify:\/\/shop_images\/Screen_Shot_2021-01-24_at_9.28.19_AM.png",
+              "article_url": "https:\/\/www.domino.com\/content\/future-home-gym-workouts\/"
+            }
+          },
+          "74f2c6e2-cec7-43c7-8e2d-b79ffd93bd0b": {
+            "type": "articles",
+            "settings": {
+              "publication_logo": "shopify:\/\/shop_images\/Screen_Shot_2021-01-24_at_9.29.13_AM.png",
+              "article_url": "https:\/\/robbreport.com\/lifestyle\/health-wellness\/hydra-studios-fitness-studio-built-post-pandemic-world-1234588042"
+            }
+          },
+          "7bf2cf08-2116-4721-859f-f26c44b55146": {
+            "type": "articles",
+            "settings": {
+              "publication_logo": "shopify:\/\/shop_images\/Amodrn_180x45_12cb0054-0c88-430d-b20d-3dba101607a5.png",
+              "article_url": "https:\/\/amodrn.com\/wellness-studio-offers-private-exercise-suites-for-post-pandemic-world\/"
+            }
+          },
+          "8386039e-6735-4952-9bff-3b4c4730ecd3": {
+            "type": "articles",
+            "settings": {
+              "publication_logo": "shopify:\/\/shop_images\/download.png"
+            }
+          }
+        },
+        "block_order": [
+          "2e9d02c0-e032-4aa3-94da-2985dc25391b",
+          "74f2c6e2-cec7-43c7-8e2d-b79ffd93bd0b",
+          "7bf2cf08-2116-4721-859f-f26c44b55146",
+          "8386039e-6735-4952-9bff-3b4c4730ecd3"
+        ],
+        "settings": {
+          "title": "In the Press",
+          "quote": "A wellness hub for the modern professional",
+          "quote_logo": "shopify:\/\/shop_images\/Screen_Shot_2021-01-24_at_9.23.53_AM.png",
+          "main_article_url": "https:\/\/wwd.com\/eye\/lifestyle\/hydra-studios-fitness-wellness-new-york-1234689103\/"
+        }
       }
     },
     "content_for_index": [
@@ -483,10 +540,11 @@
       "1604515983c3cb4c06",
       "feature-row",
       "1605030713bd892543",
-      "1605030732ff11798f",
       "160503408969e3c746",
-      "1605293181991bc133",
+      "1605030732ff11798f",
+      "16115011202ec85d8a",
       "1605561888ea81b52d",
+      "1605293181991bc133",
       "1605280292657652d9",
       "16055692661c10709d",
       "1605579672e6211d63",
@@ -504,7 +562,7 @@
           "type": "hero",
           "settings": {
             "hero_size": "large",
-            "text_size": "large"
+            "text_size": "42"
           }
         },
         "feature-row": {
@@ -545,7 +603,7 @@
         "hero-2": {
           "type": "hero",
           "settings": {
-            "text_size": "large"
+            "text_size": "42"
           }
         },
         "quotes": {
@@ -688,7 +746,7 @@
           "settings": {
             "alignment": "center",
             "hero_size": "x-large",
-            "text_size": "large"
+            "text_size": "42"
           }
         },
         "slideshow": {
@@ -715,7 +773,7 @@
           ],
           "settings": {
             "slideshow_height": "medium",
-            "text_size": "medium",
+            "text_size": "42",
             "autorotate": false,
             "autorotate_speed": 5
           }

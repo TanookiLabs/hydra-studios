@@ -6,7 +6,7 @@
 
     <div class='d-flex justify-content-around flex-row-wrap mb-5'>
       <div class='w-100'>
-        <img class="lazyload lazypreload"
+        <img class="lazyload lazypreload location-image"
           src="{{ section.settings.main_location_image | image_url }}"
           alt="{{ section.settings.main_location_image.alt | escape }}"
         />
@@ -26,28 +26,26 @@
       </div>
     </div>
 
-    <div class='row justify-content-around flex-row-wrap'>
+    <div class='row no-gutters justify-content-around flex-row-wrap'>
       <div class='col-12 col-md-6 px-0 pr-md-2 mb-2 mb-md-0 secondary-location'>
-        <img class="lazyload lazypreload" src="{{ section.settings.second_location_image | image_url }}"
+        <img class="location-image lazyload lazypreload" src="{{ section.settings.second_location_image | image_url }}"
           alt="{{ section.settings.second_location_image.alt | escape }}" />
+        <div class='d-flex d-md-none row justify-content-around flex-row-wrap'>
+          <div class='col-12 col-md-6 rte location-caption my-3 text-center'>
+            {{ section.settings.secondary_location }}
+          </div>
+          <div class="col-12 col-md-6"></div>
+        </div>
       </div>
 
-      <div class='d-flex flex-column justify-content-between col-12 col-md-6 get-in-touch bg-pattern pl-4'>
-        <div class="mb-0 mt-4">
-          <h5 class='not-in-area mb-0'>
-            Not in
-          </h5>
-          <h5 class='not-in-area'>
-            your area?
-          </h5>
-        </div>
-        <div class='get-in-touch-button mb-4 mr-2' data-toggle="modal" data-target="#contactModal">
-          <img src="{{ "get-in-touch-icon.png" | asset_img_url }}" class="float-right get-in-touch-icon" />
+      <div class='d-flex justify-content-end align-items-end col-12 col-md-6 get-in-touch bg-pattern pl-4'>
+        <div class='get-in-touch-button mr-2' data-toggle="modal" data-target="#contactModal">
+          <img src="{{ "get-in-touch-icon.png" | asset_url }}" class="float-right get-in-touch-icon" />
         </div>
       </div>
     </div>
 
-    <div class='row justify-content-around flex-row-wrap'>
+    <div class='d-none d-md-flex row justify-content-around flex-row-wrap'>
       <div class='col-12 col-md-6 rte location-caption my-3 text-center'>
         {{ section.settings.secondary_location }}
       </div>
@@ -58,8 +56,8 @@
 
 {% schema %}
 {
-  "name": "pricing",
-  "class": "pricing-section",
+  "name": "locations",
+  "class": "locations-section",
   "settings": [
     {
       "type": "text",

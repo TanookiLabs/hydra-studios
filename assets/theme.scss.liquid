@@ -51,7 +51,6 @@
 /* Header */
 .announcement-bar {
   font-family: OrpheusPro;
-  font-weight: bold;
   font-size: 16px;
   line-height: 36px;
 }
@@ -59,8 +58,9 @@
 .announcement-bar__message {
   display: block;
   padding: 5px 22px;
-  font-family: OrpheusPro;
   font-weight: bold;
+  font-family: OrpheusPro;
+  letter-spacing: 1px;
   font-size: 16px;
   line-height: 36px;
 }
@@ -143,7 +143,7 @@
 }
 
 .get-in-touch-icon {
-  width: 124px;
+  width: 254px;
 }
 
 .get-in-touch-button {
@@ -152,9 +152,33 @@
 
 .not-in-area {
   font-family: OrpheusPro;
-  font-weight: bold;
   font-size: 30px;
   color: #373A36;
+}
+
+/* Carousel */
+
+.feature-row-carousel .carousel-item {
+  height: 456px;
+  max-height: 456px;
+}
+
+.feature-row-carousel .carousel-control-prev-icon {
+  position: absolute;
+  bottom: 80px;
+  left: -1px;
+  background-image: url({{ "carousel-prev.png" | asset_url }});
+  height: 100px;
+  width: 28px;
+}
+
+.feature-row-carousel .carousel-control-next-icon {
+  position: absolute;
+  bottom: 80px;
+  right: -1px;
+  background-image: url({{ "carousel-next.png" | asset_url }});
+  height: 100px;
+  width: 28px;
 }
 
 /* Instagram Gallery */
@@ -218,7 +242,6 @@
 
 .column-title {
   font-family: OrpheusPro;
-  font-weight: bold;
   font-size: 25px;
   color: #58718C;
 }
@@ -246,8 +269,21 @@
 }
 
 .service-description p {
-  font-size: 21px;
+  font-size: 19px;
   line-height: 20px;
+}
+
+/* Press Section */
+.press-quote {
+  font-size: 32px;
+}
+
+.press-logo-dash {
+  font-size: 40px;
+}
+
+.main-press-logo {
+  height: 40px;
 }
 
 /* Newsletter */
@@ -298,9 +334,9 @@
 .hero-main-title {
   font-family: MrEavesModOT-Book, MrEavesModOT;
   line-height: 1.4;
-  font-size: 40px !important;
-  letter-spacing: 2px !important;
+  letter-spacing: 1px !important;
   max-width: 450px !important;
+  font-weight: bold;
 }
 
 a:hover {
@@ -311,8 +347,7 @@ a:hover {
 /* Image and text */
 .image-and-text-title {
   font-family: 'OrpheusPro' !important;
-  font-weight: bold;
-  font-size: 30px;
+  font-size: 32px;
   color: #373A36;
 }
 
@@ -329,7 +364,7 @@ a:hover {
 }
 
 .bg-pattern {
-  background-image: url({{ "texture-background.png" | asset_url }});
+  // background-image: url({{ "texture-background.png" | asset_url }});
 }
 
 
@@ -355,7 +390,6 @@ a:hover {
 /* Testimonial */
 .testimonial-author {
   font-size: 20px;
-  font-weight: bold;
   font-family: OrpheusPro;
 }
 
@@ -443,8 +477,59 @@ a:hover {
 }
 
 /* Modals */
+.email-close-button {
+  position: absolute;
+  top: -18px;
+  right: 0px;
+  background: none;
+  border: none;
+  font-size: 40px;
+}
+
+.email-popup-image-desktop {
+  width: 100%;
+}
+
+.email-popup-text-section {
+  background-color: #efe8e2;
+}
+
+.email-popup-title {
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.email-popup-stay-updated {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.email-popup-stay-updated-mobile {
+  font-size: 21px;
+}
+
+.email-popup-fine-print {
+  font-size: 13px;
+  line-height: 20px;
+  color: #373A36;
+}
+
+.email-popup-image-mobile {
+  background-image: url({{ "email-popup-mobile.png" | asset_url }});
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+.mobile-popup-image {
+  // position: absolute;
+  // top: 0;
+  // width: 100%;
+  // left:
+}
+
 .contact-us-modal-title {
-  font-family: Orpheus Pro;
+  font-family: OrpheusPro;
   font-weight: bold;
   font-size: 30px;
   color: #373A36;
@@ -564,7 +649,6 @@ a:hover {
 
 .covid-section-header {
   font-family: OrpheusPro;
-  font-weight: bold;
   font-size: 30px;
 }
 
@@ -788,8 +872,35 @@ div.healcode .healcode-date-label {
     width: 100%;
     margin: 0px;
   }
+
+  .email-close-button {
+    right: -25px;
+  }
+
+  .navigation-link, .healcode-link {
+    font-size: 18px !important;
+  }
+
+  .feature-row-carousel {
+    max-height: 350px;
+  }
 }
 
+@media only screen and (max-width: 500px) {
+  .location-image {
+    max-height: 180px;
+    width: 100%;
+  }
+
+  .hero-main-title {
+    line-height: 1.2;
+    font-size: 34px !important;
+  }
+
+  .email-close-button {
+    right: 0px;
+  }
+}
 
 /* Klaviyo Forms */
 #contactModal .klaviyo-form label {
@@ -835,6 +946,48 @@ div.healcode .healcode-date-label {
   border: 1px #58718C solid;
   text-decoration: none;
 }
+
+#emailCaptureModal .klaviyo-form input {
+  font-family: MrEavesModOT;
+  height: 44px;
+  font-size: 20px;
+  padding-left: 0px;
+  border-bottom: 1px #373A36 solid !important;
+}
+
+#emailCaptureModal .klaviyo-form input::placeholder {
+  font-family: MrEavesModOT-Book !important;
+  font-size: 20px !important;
+  color: #373A36 !important;
+}
+
+#emailCaptureModal .klaviyo-form button {
+  font-family: MrEavesModOT;
+  height: 44px;
+  font-size: 22px;
+  min-width: 200px;
+  background-color: #58718C;
+  text-transform: uppercase;
+  color: #FFF;
+  border: 1px #58718C solid;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+#emailCaptureModal .klaviyo-form button:hover {
+  color: #58718C;
+  background-color: #FFF;
+  border: 1px #58718C solid;
+  text-decoration: none;
+}
+
+
 
 .newsletter-section .klaviyo-form button {
   font-family: MrEavesModOT-Book !important;

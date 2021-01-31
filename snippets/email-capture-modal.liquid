@@ -1,0 +1,79 @@
+<div class="modal fade" id="emailCaptureModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="d-none d-lg-flex modal-dialog modal-lg modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0 p-0">
+
+        <!-- DESKTOP -->
+        <div class=" row no-gutters w-100">
+          <div class="col-6 p-0">
+            <img class="email-popup-image-desktop" src={{ "email-popup-desktop.png" | asset_url }} />
+          </div>
+          <div class="col-6 email-popup-text-section px-5 py-4">
+            <button class="email-close-button" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="email-popup-title">
+              CLAIM YOUR MOMENT
+            </h5>
+            <p class="email-popup-stay-updated">
+              Stay updated on special discounts and memberships
+            </p>
+            <div class="mb-4 text-center email-signup-form">
+              <div class="klaviyo-form-Yvf79G"></div>
+            </div>
+            <p class="email-popup-fine-print">
+              by signing, you agree to Hydra's
+              <a href="/pages/privacy-policy" target="_blank">Privacy Policy</a> and
+              <a href="/pages/terms-and-conditions" target="_blank">Terms of Use</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE -->
+  <div class="d-flex d-lg-none modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header border-0 p-0">
+        <div class="">
+          <div class="email-popup-image-mobile p-4">
+            <button class="email-close-button" type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h5 class="email-popup-title">
+              CLAIM YOUR MOMENT
+            </h5>
+            <p class="email-popup-stay-updated-mobile text-white">
+              Stay updated on special discounts and memberships
+            </p>
+          </div>
+          <div class="email-popup-text-section px-4 py-3">
+            <div class="mb-4 text-center email-signup-form">
+              <div class="klaviyo-form-Yvf79G"></div>
+            </div>
+            <p class="email-popup-fine-print">
+              by signing, you agree to Hydra's
+              <a href="/pages/privacy-policy" target="_blank">Privacy Policy</a> and
+              <a href="/pages/terms-and-conditions" target="_blank">Terms of Use</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(() => {
+    firstTimeVisitor = !document.cookie.includes("hydra_popup")
+
+    if (!window.location.href.includes('/pages') && firstTimeVisitor) {
+      setTimeout(() => {
+        $('#emailCaptureModal').modal('show')
+        document.cookie = "hydra_popup=true";
+      }, 1000)
+    }
+  })
+</script>

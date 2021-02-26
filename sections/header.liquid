@@ -62,7 +62,7 @@
             {%- assign img_url = section.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
             <a href="{{ routes.root_url }}" class="{% if section.settings.align_logo == 'center' %} site-header__logo-image--centered{% endif %}" data-image-loading-animation>
               {% capture logo_alt %}{{ section.settings.logo.alt | default: shop.name }}{% endcapture %}
-              <img class="lazyload js"
+              <img class="lazyload lazy js"
                    src="{{ section.settings.logo | img_url: '300x300' }}"
                    data-src="{{ img_url }}"
                    data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
@@ -72,7 +72,8 @@
                    style="max-width: {{ section.settings.logo_max_width }}px">
               <noscript>
                 {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
-                <img src="{{ section.settings.logo | img_url: image_size }}"
+                <img class="lazy lazyload js"
+                     data-src="{{ section.settings.logo | img_url: image_size }}"
                      srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
                      alt="{{ section.settings.logo.alt | default: shop.name }}"
                      style="max-width: {{ section.settings.logo_max_width }}px;">
@@ -134,7 +135,7 @@
 
   <nav class="d-md-none d-flex w-100 mobile-navigation justify-content-between" role="navigation">
     <a href="/">
-      <img class="lazyload js mobile-logo px-3 py-3" src="{{ section.settings.logo | img_url }}" />
+      <img class="lazyload lazy js mobile-logo px-3 py-3" src="{{ section.settings.logo | img_url }}" />
     </a>
 
     <div class="dropleft">

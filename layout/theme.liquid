@@ -32,6 +32,8 @@
   <link rel="preload" as="font" href="{{ base_font_bold | font_url }}" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
   <link rel="preload" href="{{ 'lazysizes.js' | asset_url }}" as="script">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
 
   {%- if canonical_url != blank  -%}
     <link rel="canonical" href="{{ canonical_url }}">
@@ -59,6 +61,14 @@
     {%- endunless -%}
   {%- endcapture -%}
   <title>{{ seo_title | strip }}</title>
+
+  {% if template contains 'blog' %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+  {% if template contains 'collections' %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+
 
   {%- if page_description -%}
     <meta name="description" content="{{ page_description | escape }}">
@@ -248,4 +258,17 @@
   {% include 'email-capture-modal' %}
 
 </body>
+<script>
+  $(document).ready(() => {
+    $('.lazy').Lazy({
+      // your configuration goes here
+      scrollDirection: 'vertical',
+      effect: 'fadeIn',
+      visibleOnly: true,
+      onError: function (element) {
+        console.log('error loading ' + element.data('src'));
+      }
+    });
+  })
+</script>
 </html>

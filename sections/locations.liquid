@@ -6,8 +6,8 @@
 
     <div class='d-flex justify-content-around flex-row-wrap mb-5'>
       <div class='w-100'>
-        <img class="lazyload lazypreload location-image"
-          src="{{ section.settings.main_location_image | image_url }}"
+        <img class="lazy lazyload lazypreload location-image"
+          data-src="{{ section.settings.main_location_image | image_url }}"
           alt="{{ section.settings.main_location_image.alt | escape }}"
         />
         <div class='rte location-caption my-4 text-center'>
@@ -28,7 +28,7 @@
 
     <div class='row no-gutters justify-content-around flex-row-wrap'>
       <div class='col-12 col-md-6 px-0 pr-md-2 mb-2 mb-md-0 secondary-location'>
-        <img class="location-image lazyload lazypreload" src="{{ section.settings.second_location_image | image_url }}"
+        <img class="lazy location-image lazyload lazypreload" data-src="{{ section.settings.second_location_image | image_url }}"
           alt="{{ section.settings.second_location_image.alt | escape }}" />
         <div class='d-flex d-md-none row justify-content-around flex-row-wrap'>
           <div class='col-12 col-md-6 rte location-caption my-3 text-center'>
@@ -40,7 +40,7 @@
 
       <div class='d-flex justify-content-end align-items-end col-12 col-md-6 get-in-touch bg-pattern pl-4'>
         <div class='get-in-touch-button mr-2' data-toggle="modal" data-target="#contactModal">
-          <img src="{{ "get-in-touch-icon.png" | asset_url }}" class="float-right get-in-touch-icon" />
+          <img src="{{ "get-in-touch-icon.png" | asset_url }}" class="lazy float-right get-in-touch-icon" />
         </div>
       </div>
     </div>

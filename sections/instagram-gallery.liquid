@@ -13,9 +13,9 @@
       {% for block in section.blocks %}
         <div class="col-lg-3 col-md-6 col-12 instagram-picture-container p-0">
           <a href="{{ block.settings.instagram_url }}" target="_blank" >
-            <img class="lazyload lazypreload instagram-picture" src="{{ block.settings.instagram_photo | image_url }}"
+            <img class="lazy lazyload lazypreload instagram-picture" data-src="{{ block.settings.instagram_photo | image_url }}"
               alt="{{ block.settings.instagram_photo.alt | escape }}" />
-            <img src={{ "instagram-icon-white.png" | asset_url }} class="instagram-picture-icon" />
+            <img src={{ "instagram-icon-white.png" | asset_url }} class="lazy instagram-picture-icon" />
           </a>
         </div>
       {% endfor %}

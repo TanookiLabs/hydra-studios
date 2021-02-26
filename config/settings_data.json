@@ -23,11 +23,13 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/custom_resized_7eaa4149-7f05-4ddd-89c7-b18c48f21f76.jpg",
-          "text_alignment": "left",
-          "text_position": "left",
-          "text_size": 41,
+          "image": "shopify:\/\/shop_images\/custom_resized_78c32a1d-d759-4339-a544-608031744913.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "x-large",
+          "text_size": "42",
           "title": "YOUR PRIVATE WELLNESS STUDIO IN THE HEART OF THE CITY",
+          "text": "",
           "button_label": "Book a Session",
           "button_link": "shopify:\/\/pages\/book-appointment"
         }
@@ -515,8 +517,7 @@
           "8386039e-6735-4952-9bff-3b4c4730ecd3": {
             "type": "articles",
             "settings": {
-              "publication_logo": "shopify:\/\/shop_images\/download.png",
-              "article_url": "https:\/\/news.crunchbase.com\/news\/startups-to-watch-hydra-studios-feast-fettle-dirty-labs-hello-genius\/"
+              "publication_logo": "shopify:\/\/shop_images\/download.png"
             }
           }
         },
@@ -560,7 +561,8 @@
         "hero-1": {
           "type": "hero",
           "settings": {
-            "text_size": 42
+            "hero_size": "large",
+            "text_size": "42"
           }
         },
         "feature-row": {
@@ -601,7 +603,7 @@
         "hero-2": {
           "type": "hero",
           "settings": {
-            "text_size": 42
+            "text_size": "42"
           }
         },
         "quotes": {
@@ -742,7 +744,9 @@
         "hero": {
           "type": "hero",
           "settings": {
-            "text_size": 42
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "42"
           }
         },
         "slideshow": {

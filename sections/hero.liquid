@@ -23,7 +23,7 @@
     <div class="hero__inner">
       <div class="page-width text-{{ section.settings.text_alignment }} float-{{ section.settings.text_position }}">
         {%- if section.settings.title != blank -%}
-          <h2 class="hero-main-title mt-md-5 mt-1 mt-md-0 mega-title--large" style="font-size: {{ section.settings.text_size }}px;">{{ section.settings.title | escape }}</h2>
+          <h1 class="hero-main-title mt-md-5 mt-1 mt-md-0 mega-title--large" style="font-size: {{ section.settings.text_size }}px;">{{ section.settings.title | escape }}</h1>
         {%- endif -%}
 
         {%- if section.settings.button_label != blank and section.settings.button_link != blank -%}

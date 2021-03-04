@@ -23,10 +23,10 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/custom_resized_7eaa4149-7f05-4ddd-89c7-b18c48f21f76.jpg",
+          "image": "shopify:\/\/shop_images\/modern-approach-to-wellness.jpg",
           "text_alignment": "left",
           "text_position": "left",
-          "text_size": 41,
+          "text_size": 42,
           "title": "YOUR PRIVATE WELLNESS STUDIO IN THE HEART OF THE CITY",
           "button_label": "Book a Session",
           "button_link": "shopify:\/\/pages\/book-appointment"
@@ -35,10 +35,9 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/20201211-DSC06087-Edit-min.jpg",
-          "image_2": "shopify:\/\/shop_images\/20201211-DSC04036-Edit-min.jpg",
-          "image_3": "shopify:\/\/shop_images\/20201211-DSC03635-Edit-min_1.jpg",
-          "image_4": "shopify:\/\/shop_images\/20201211-DSC05345-Edit-min.jpg",
+          "image": "shopify:\/\/shop_images\/Peloton-classes-private-fitness.jpg",
+          "image_2": "shopify:\/\/shop_images\/TRX-Weights-private-Room.jpg",
+          "image_3": "shopify:\/\/shop_images\/mirror-an-interactive-gym.jpg",
           "layout": "left",
           "title": "Activate",
           "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Suites cleaned between each use<\/p>",
@@ -184,10 +183,9 @@
       "1605030713bd892543": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/20201211-DSC05653-Edit-min.jpg",
-          "image_2": "shopify:\/\/shop_images\/20201211-DSC05840-Edit-min.jpg",
-          "image_3": "shopify:\/\/shop_images\/20201211-DSC05991-Edit-min.jpg",
-          "image_4": "shopify:\/\/shop_images\/20201211-DSC05903-min.jpg",
+          "image": "shopify:\/\/shop_images\/rainfall-shower-sleek.jpg",
+          "image_2": "shopify:\/\/shop_images\/Hydra-Studios-Steam-Sauna.jpg",
+          "image_3": "shopify:\/\/shop_images\/shower-malin-goetz-products.jpg",
           "layout": "right",
           "title": "Refresh",
           "text": "<p>Locker storage<br\/>Changing areas<br\/>Rainfall showers &amp; towel service<br\/>Steam &amp; infrared sauna<\/p>",
@@ -197,9 +195,9 @@
       "1605030732ff11798f": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/20201211-DSC03679-Edit-min.jpg",
-          "image_2": "shopify:\/\/shop_images\/20201211-DSC04932-min.jpg",
-          "image_3": "shopify:\/\/shop_images\/20201211-DSC05480-min.jpg",
+          "image": "shopify:\/\/shop_images\/Steam-Room-Infrared-Sauna-Relax_bd157edd-f55d-413b-bb5f-4cea717467d0.jpg",
+          "image_2": "shopify:\/\/shop_images\/Meditation-Mental-Wellness-Nap-Room.jpg",
+          "image_3": "shopify:\/\/shop_images\/meditation-mindfulness-classes.jpg",
           "layout": "right",
           "title": "Recharge",
           "text": "<p>Private, reservable rooms for<br\/>meditation and mental wellness<br\/>Clean &amp; pristine<\/p>",
@@ -209,10 +207,9 @@
       "160503408969e3c746": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/20201211-DSC05823-Edit-min_1.jpg",
-          "image_2": "shopify:\/\/shop_images\/20201211-DSC06040-min_82e4010c-fe0e-482e-a8bd-801bb4aa14bd.jpg",
-          "image_3": "shopify:\/\/shop_images\/20201211-DSC03648-min_07c42913-3abe-4161-957d-8eaf327944f5.jpg",
-          "image_4": "shopify:\/\/shop_images\/20201211-DSC05804-Edit-min.jpg",
+          "image": "shopify:\/\/shop_images\/Beauty-Bar-Vanity-Station-Clean.jpg",
+          "image_2": "shopify:\/\/shop_images\/dyson-verb-wellness-beauty-bar_dcd20c9f-7883-40fe-9db4-bd2c8310734b.jpg",
+          "image_3": "shopify:\/\/shop_images\/malin-goetz-products-clean-beauty.jpg",
           "layout": "left",
           "title": "Prep",
           "text": "<p>Vanity stations<br\/>Curated product selection<br\/>Dyson hair dryers<\/p>",
@@ -267,7 +264,8 @@
           "1605293181991bc133-0": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Asset_4.png"
+              "image": "shopify:\/\/shop_images\/Asset_4.png",
+              "link": "https:\/\/www.verbproducts.com\/"
             }
           },
           "1605293181991bc133-1": {
@@ -280,7 +278,8 @@
           "1605293181991bc133-2": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Asset_6.png"
+              "image": "shopify:\/\/shop_images\/Asset_6.png",
+              "link": "https:\/\/blindbarber.com\/"
             }
           },
           "1605293181991bc133-3": {
@@ -292,13 +291,15 @@
           "cab9b1fe-9bcc-4583-b295-f4d26de0eb0d": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Asset_8.png"
+              "image": "shopify:\/\/shop_images\/Asset_8.png",
+              "link": "https:\/\/www.malinandgoetz.com\/"
             }
           },
           "1784625a-5ee3-486d-9350-bcacfc07384c": {
             "type": "logo_image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/Asset_9.png"
+              "image": "shopify:\/\/shop_images\/Asset_9.png",
+              "link": "https:\/\/www.dyson.com"
             }
           }
         },
@@ -432,9 +433,9 @@
         "settings": {
           "title": "Locations",
           "main_location": "<p><strong>120 Wall Street New York, NY<br\/>Now Open<\/strong><\/p>",
-          "main_location_image": "shopify:\/\/shop_images\/20201211-DSC03467-Edit-min_d802f152-e91b-4dea-bb38-ebcacff37b3f.jpg",
+          "main_location_image": "shopify:\/\/shop_images\/Hydra-Studios-reception_e8e918cf-a131-4185-a5cb-c5734d2dedc7.jpg",
           "secondary_location": "<p><strong>Fifth Avenue<br\/>Exclusively Serving Convene<\/strong><\/p>",
-          "second_location_image": "shopify:\/\/shop_images\/HydraStudios-121.jpg"
+          "second_location_image": "shopify:\/\/shop_images\/Hydra-Studios-Fifth-Avenue.jpg"
         }
       },
       "1605579672e6211d63": {
@@ -516,7 +517,7 @@
             "type": "articles",
             "settings": {
               "publication_logo": "shopify:\/\/shop_images\/download.png",
-              "article_url": "https:\/\/news.crunchbase.com\/news\/startups-to-watch-hydra-studios-feast-fettle-dirty-labs-hello-genius\/"
+              "article_url": "https:\/\/news.crunchbase.com\/news\/startups-to-watch-hydra-studios-feast-fettle-dirty-labs-hello-genius"
             }
           }
         },

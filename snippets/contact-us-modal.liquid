@@ -35,6 +35,14 @@
               <input class="contact-us-input w-100" id="form-comments" type="textarea" name="comments" />
             </div>
           </div>
+          <div class="row mb-3">
+            <div class="col-12">
+              <label for="form-opt_in">
+                <input type="checkbox" id="form-opt_in" name="opt_in" class="mr-1" checked />
+                By selecting 'Submit' you agree to opt-in for Hydra Studios email outreach
+              </label>
+            </div>
+          </div>
           <div class="row">
             <input type="submit" class="text-center submit-button mb-4" value="SUBMIT" />
           </div>
@@ -56,6 +64,11 @@
 
 <script>
   $(document).ready(() => {
+    const formSuccess = () => {
+      $('#contactModal').modal('hide')
+      $('#contactUsThankYouModal').modal('show')
+    }
+
     $('#contact-us-form').on('submit', (e) => {
       e.preventDefault();
       const formValues = {
@@ -64,14 +77,14 @@
         email: $('input#form-email').val(),
         comments: $('input#form-comments').val()
       }
+
+      const zapId = $('input#form-opt_in:checked').length ? 'onepf7o' : 'onqnv91'
+
       $.ajax({
         type: "POST",
-        url: 'https://hooks.zapier.com/hooks/catch/8998686/opo2st8',
+        url: `https://hooks.zapier.com/hooks/catch/8998686/${zapId}`,
         data: formValues,
-        success: () => {
-          $('#contactModal').modal('hide')
-          $('#contactUsThankYouModal').modal('show')
-        }
+        success: formSuccess
       });
     })
   })

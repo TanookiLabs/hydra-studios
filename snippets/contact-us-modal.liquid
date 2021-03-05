@@ -78,22 +78,14 @@
         comments: $('input#form-comments').val()
       }
 
-      if ($('input#form-opt_in:checked').length) {
-        console.log('checked!!')
-        $.ajax({
-          type: "POST",
-          url: 'https://hooks.zapier.com/hooks/catch/8998686/onepf7o',
-          data: formValues,
-          success: formSuccess
-        });
-      } else {
-        $.ajax({
-          type: "POST",
-          url: 'https://hooks.zapier.com/hooks/catch/8998686/opo2st8',
-          data: formValues,
-          success: formSuccess
-        });
-      }
+      const zapId = $('input#form-opt_in:checked').length ? 'onepf7o' : 'opo2st8'
+
+      $.ajax({
+        type: "POST",
+        url: `https://hooks.zapier.com/hooks/catch/8998686/${zapId}`,
+        data: formValues,
+        success: formSuccess
+      });
     })
   })
 </script>

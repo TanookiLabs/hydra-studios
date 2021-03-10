@@ -23,7 +23,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/modern-approach-to-wellness.jpg",
+          "image": "shopify:\/\/shop_images\/hero-compressed.jpg",
           "text_alignment": "left",
           "text_position": "left",
           "text_size": 42,
@@ -35,12 +35,12 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Peloton-classes-private-fitness.jpg",
-          "image_2": "shopify:\/\/shop_images\/TRX-Weights-private-Room.jpg",
+          "image": "shopify:\/\/shop_images\/TRX-Weights-private-Room.jpg",
+          "image_2": "shopify:\/\/shop_images\/20201211-DSC03754-Edit-min.jpg",
           "image_3": "shopify:\/\/shop_images\/mirror-an-interactive-gym.jpg",
           "layout": "left",
           "title": "Activate",
-          "text": "<p>Private, reservable fitness suites<br\/>Book a Peloton, <em>MIRROR<\/em>, TRX or weightlifting session<br\/>Suites cleaned between each use<\/p>",
+          "text": "<p>Private, reservable fitness suites<br\/>Book a <em>MIRROR<\/em>, TRX, weightlifting or cycling session<br\/>Suites cleaned between each use<\/p>",
           "button_label": ""
         }
       },
@@ -339,12 +339,12 @@
               "bottom_border": "no"
             }
           },
-          "bff0996e-c9d6-4587-9090-4780c7d3bc54": {
+          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28": {
             "type": "service_offerings",
             "settings": {
-              "title": "Fitness Suite",
-              "price": "$28",
-              "description": "<p>MIRROR, TRX, or weightlifting session<br\/>Refresh session included<br\/>Reserved individually, deep cleaned between each use<\/p>",
+              "title": "Infrared Sauna Session",
+              "price": "$55",
+              "description": "<p>45 minutes. Refresh session included.<\/p><p><\/p>",
               "column_number": "two",
               "bottom_border": "yes"
             }
@@ -354,7 +354,7 @@
             "settings": {
               "title": "Refresh Session",
               "price": "$24",
-              "description": "<p>Shower suite, vanity, &amp; locker storage<\/p>",
+              "description": "<p>Rainfall shower, Brooklinen towels, Malin &amp; Goetz products, vanity station &amp; locker storage<\/p>",
               "column_number": "two",
               "bottom_border": "yes"
             }
@@ -367,16 +367,6 @@
               "description": "<p>Mental wellness room for nap or meditation<\/p>",
               "column_number": "two",
               "bottom_border": "yes"
-            }
-          },
-          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28": {
-            "type": "service_offerings",
-            "settings": {
-              "title": "Infrared Sauna Session",
-              "price": "",
-              "description": "<p>Coming soon<\/p>",
-              "column_number": "two",
-              "bottom_border": "no"
             }
           },
           "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388": {
@@ -413,10 +403,9 @@
         "block_order": [
           "1605561888ea81b52d-0",
           "22521be5-0c72-45f0-a86f-554c0a1848b5",
-          "bff0996e-c9d6-4587-9090-4780c7d3bc54",
+          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28",
           "88204de9-ed52-40c2-b7cb-2ecd2bb86894",
           "0fd712f6-48ef-4692-b0b3-c78fe88bbb92",
-          "4792a0ba-1131-4eb0-bc70-6764ac0d2c28",
           "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388",
           "985b35aa-29ec-4774-81d5-37fa139afd23",
           "749015a7-d409-4e75-bb33-2662d372435b"
@@ -494,10 +483,7 @@
         "blocks": {
           "2e9d02c0-e032-4aa3-94da-2985dc25391b": {
             "type": "articles",
-            "settings": {
-              "publication_logo": "shopify:\/\/shop_images\/Screen_Shot_2021-01-24_at_9.28.19_AM.png",
-              "article_url": "https:\/\/www.domino.com\/content\/future-home-gym-workouts\/"
-            }
+            "settings": {}
           },
           "74f2c6e2-cec7-43c7-8e2d-b79ffd93bd0b": {
             "type": "articles",

@@ -37,10 +37,10 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/TRX-Weights-private-Room.jpg",
           "image_2": "shopify:\/\/shop_images\/20201211-DSC03754-Edit-min.jpg",
-          "image_3": "shopify:\/\/shop_images\/mirror-an-interactive-gym.jpg",
+          "image_3": "shopify:\/\/shop_images\/private-fitness-classes-stretch-yoga.jpg",
           "layout": "left",
           "title": "Activate",
-          "text": "<p>Private, reservable fitness suites<br\/>Book a <em>MIRROR<\/em>, TRX, weightlifting or cycling session<br\/>Suites cleaned between each use<\/p>",
+          "text": "<p>Reserve a private fitness suite with TechnoGym bikes, the Hydrow rower, streamable classes, TRX and weightlifting equipment.<br\/>Suites cleaned between each use.<\/p>",
           "button_label": ""
         }
       },
@@ -188,7 +188,7 @@
           "image_3": "shopify:\/\/shop_images\/shower-malin-goetz-products.jpg",
           "layout": "right",
           "title": "Refresh",
-          "text": "<p>Locker storage<br\/>Changing areas<br\/>Rainfall showers &amp; towel service<br\/>Steam &amp; infrared sauna<\/p>",
+          "text": "<p>Rainfall showers<br\/>Private infrared sauna<br\/>Brooklinen towels<br\/>Steam rooms<\/p>",
           "button_label": ""
         }
       },
@@ -212,7 +212,7 @@
           "image_3": "shopify:\/\/shop_images\/malin-goetz-products-clean-beauty.jpg",
           "layout": "left",
           "title": "Prep",
-          "text": "<p>Vanity stations<br\/>Curated product selection<br\/>Dyson hair dryers<\/p>",
+          "text": "<p>Vanity stations<br\/>Malin &amp; Goetz, Verb &amp; Blind Barber products<br\/>Dyson hair dryers<\/p>",
           "button_label": ""
         }
       },
@@ -324,7 +324,7 @@
             "settings": {
               "title": "Flex Membership",
               "price": "$119\/Mo",
-              "description": "<p>Unlimited private room bookings<br\/>2 infrared sauna bookings per month<br\/>No sign-up fee<br\/>No annual commitment<br\/>Cancel at any time<\/p>",
+              "description": "<p>Unlimited private room bookings<br\/>2 infrared sauna bookings per month<br\/>No sign-up fee<br\/>No annual commitment<br\/><\/p>",
               "column_number": "one",
               "bottom_border": "no"
             }
@@ -337,6 +337,16 @@
               "description": "",
               "column_number": "one",
               "bottom_border": "no"
+            }
+          },
+          "92985e8b-547d-4533-b096-d5d430fd8dd5": {
+            "type": "service_offerings",
+            "settings": {
+              "title": "Fitness Suite",
+              "price": "$28",
+              "description": "<p>Connected fitness devices to cycle, row, take a class or use TRX and weightlifting equipment. Refresh session included.<\/p><p>Reserved individually, deep cleaned between each use.      <\/p>",
+              "column_number": "two",
+              "bottom_border": "yes"
             }
           },
           "4792a0ba-1131-4eb0-bc70-6764ac0d2c28": {
@@ -354,7 +364,7 @@
             "settings": {
               "title": "Refresh Session",
               "price": "$24",
-              "description": "<p>Rainfall shower, Brooklinen towels, Malin &amp; Goetz products, vanity station &amp; locker storage<\/p>",
+              "description": "<p>Rainfall showers, towel service, curated personal care products, vanity station &amp; locker storage<\/p>",
               "column_number": "two",
               "bottom_border": "yes"
             }
@@ -366,7 +376,7 @@
               "price": "$24",
               "description": "<p>Mental wellness room for nap or meditation<\/p>",
               "column_number": "two",
-              "bottom_border": "yes"
+              "bottom_border": "no"
             }
           },
           "0ae1714d-dd4e-4e1c-a7e1-0f41e585b388": {
@@ -403,6 +413,7 @@
         "block_order": [
           "1605561888ea81b52d-0",
           "22521be5-0c72-45f0-a86f-554c0a1848b5",
+          "92985e8b-547d-4533-b096-d5d430fd8dd5",
           "4792a0ba-1131-4eb0-bc70-6764ac0d2c28",
           "88204de9-ed52-40c2-b7cb-2ecd2bb86894",
           "0fd712f6-48ef-4692-b0b3-c78fe88bbb92",
